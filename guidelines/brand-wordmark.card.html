@@ -1,0 +1,12 @@
+<!-- @dsCard group="Brand" viewport="820x300" name="Знак и марка" subtitle="Стеклянная сфера с искрой + текстовая марка Manrope 700" -->
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><link rel="stylesheet" href="../styles.css"><style>body{margin:0;padding:24px 28px;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-sans);display:flex;flex-direction:column;gap:24px}.lockup{display:flex;align-items:center;gap:12px}.name{font-size:30px;font-weight:700;letter-spacing:-.025em;line-height:1}.tag{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);margin-top:4px}.sizes{display:flex;align-items:flex-end;gap:28px}.s{display:flex;flex-direction:column;align-items:center;gap:6px}.s span{font-size:10px;font-weight:600;letter-spacing:.06em;color:var(--text-muted)}.on{padding:16px 20px;border-radius:12px;background:var(--surface-footer);display:flex;align-items:center;gap:12px}.on .name{color:#fff}.note{padding:12px 14px;border-radius:8px;background:var(--surface-muted);border:1px solid var(--border-subtle);font-size:12px;color:var(--text-secondary);max-width:700px;line-height:1.6}</style></head><body>
+<div class="lockup"><img src="../assets/logo.svg" alt="" width="40" height="40"><div><div class="name">СИНГУЛЯРНОСТЬ</div><div class="tag">СТРОИМ ТО, ЧЕГО НЕТ В КОРОБКЕ</div></div></div>
+<div class="sizes">
+<div class="s"><img src="../assets/logo.svg" alt="" width="64" height="64"><span>64 · подвал крупно</span></div>
+<div class="s"><img src="../assets/logo.svg" alt="" width="48" height="48"><span>48 · подвал</span></div>
+<div class="s"><img src="../assets/logo.svg" alt="" width="40" height="40"><span>40 · шапка</span></div>
+<div class="s"><img src="../assets/logo.svg" alt="" width="24" height="24"><span>24 · минимум</span></div>
+<div class="on"><img src="../assets/logo.svg" alt="" width="40" height="40"><div class="name">СИНГУЛЯРНОСТЬ</div></div>
+</div>
+<div class="note">Знак перенесён из прод-исходника <code>NeuroCoreLogo.tsx</code> один в один: внешнее свечение blur 24px, сфера с двумя внутренними тенями, искра <b>violet-500 → violet-900</b>, блик сверху-слева и отражение снизу-справа. Компонент <b>Logo</b>, файлом — <code>assets/logo.svg</code>. Все размеры считаются от базовых 56px, поэтому знак не рассыпается на других. Сфера светлая и в тёмной теме тоже: не перекрашивайте её и не кладите знак на фиолетовый фон — на акценте он теряется, там только текстовая марка. Ниже 24px искра сливается.</div>
+</body></html>

@@ -1,0 +1,47 @@
+<!-- @dsCard group="Components" viewport="700x420" name="Ядро" subtitle="Кнопки, бейджи, статусы, метрика, ключевая мысль" -->
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><title>Ядро</title><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.js"></script>
+<script src="../../_ds_bundle.js"></script><style>body{margin:0;padding:20px 24px;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-sans)}.lbl{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 8px}</style></head><body><div id="root"></div><script type="text/babel">
+const { Button, IconButton, Icon, Badge, StatusBadge, Accent, Metric, KeyPoint, AnimatedNumber } = window.DesignSystem_03bc73;
+const Row = ({ label, children, wrap }) => (
+  <div style={{ marginBottom: 22 }}>
+    <p className="lbl">{label}</p>
+    <div style={{ display: 'flex', gap: 12, alignItems: 'center', flexWrap: wrap === false ? 'nowrap' : 'wrap' }}>{children}</div>
+  </div>
+);
+function Card() {
+  return (
+    <div>
+      <Row label="Кнопки — primary · accent · quiet · disabled">
+        <Button variant="primary" icon="zap" iconAfter={false}>Разобрать задачу</Button>
+        <Button variant="accent" icon="arrow-right">Получить разбор задачи</Button>
+        <Button variant="quiet" icon="arrow-right">Смотреть все проекты</Button>
+        <Button variant="primary" disabled>Недоступно</Button>
+      </Row>
+      <div style={{ padding: 16, borderRadius: 16, background: 'var(--gradient-hero)', marginBottom: 22, display: 'flex', gap: 12, alignItems: 'center' }}>
+        <Button variant="onAccent" icon="arrow-right">Получить разбор задачи</Button>
+        <Badge>Отвечаем в течение рабочего дня</Badge>
+      </div>
+      <Row label="Статусы · иконки-кнопки">
+        <StatusBadge status="delivered" hint="Работает в проде, есть кейс" />
+        <StatusBadge status="prototype" />
+        <StatusBadge status="concept" />
+        <IconButton icon="moon" label="Переключить тему" />
+        <IconButton icon="menu" label="Открыть меню" />
+        <Icon name="check-circle" size={20} color="var(--accent)" />
+      </Row>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 22 }}>
+        <Metric before="3 дня" after="4 часа" label="сбор отчёта по продажам" attribution="delivered" />
+        <Metric range="+15–25%" label="конверсии — ожидаемый эффект" attribution="concept" />
+      </div>
+      <KeyPoint variant="rule" eyebrow="Наше достойное дело" lead="Открывать возможности каждому — и превращать их в то, чего нет больше ни у кого" />
+      <p style={{ fontSize: 16, color: 'var(--text-secondary)', lineHeight: 1.625, marginTop: 18 }}>
+        Скажем прямо, если задача закрывается <Accent>готовым сервисом</Accent> за десять тысяч. Счётчик: <AnimatedNumber value={46} />
+      </p>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

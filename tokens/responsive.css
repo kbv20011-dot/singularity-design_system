@@ -1,0 +1,58 @@
+/* АДАПТИВНОСТЬ. Компоненты системы стилизуются инлайном, поэтому медиазапросы
+   живут здесь: меняются РОЛЕВЫЕ токены, а компоненты их только читают.
+   Пары значений взяты из прода (text-3xl md:text-5xl, py-14 md:py-24 и т.д.).
+   Порог 768px — тот же md, что в Tailwind-конфигурации проекта. */
+
+:root {
+  /* Типографика — десктоп */
+  --type-h1: var(--text-5xl);
+  --type-h2: var(--text-4xl);
+  --type-h3: var(--text-xl);
+  --type-lead: var(--text-lg);
+  --type-hero-sub: var(--text-xl);
+  --type-metric: var(--text-4xl);
+  --type-inverse-heading: var(--text-5xl);
+
+  /* Геометрия блоков — десктоп */
+  --hero-pad-y: var(--space-24);
+  --hero-pad-x: var(--space-16);
+  --hero-glass-pad: var(--space-12);
+  --section-py-current: var(--space-24);
+  --card-pad: var(--space-8);
+
+  /* Кнопки — десктоп */
+  --btn-pad-sm: 10px 24px;
+  --btn-pad-md: 16px 32px;
+  --btn-pad-lg: 20px 40px;
+  --btn-width: auto; /* @kind other */
+}
+
+@media (max-width: 767px) {
+  :root {
+    --type-h1: var(--text-3xl);
+    --type-h2: var(--text-3xl);
+    --type-h3: var(--text-lg);
+    --type-lead: var(--text-base);
+    --type-hero-sub: var(--text-lg);
+    --type-metric: var(--text-4xl);
+    --type-inverse-heading: var(--text-4xl);
+
+    --hero-pad-y: var(--space-16);
+    --hero-pad-x: var(--space-6);
+    --hero-glass-pad: var(--space-6);
+    --section-py-current: var(--space-20);
+    --card-pad: var(--space-6);
+
+    /* Тап-таргет остаётся не меньше 44px по высоте. */
+    --btn-pad-sm: 12px 20px;
+    --btn-pad-md: 14px 24px;
+    --btn-pad-lg: 16px 28px;
+  }
+
+  /* На телефоне действие занимает ширину экрана — так в проде свёрстано
+     мобильное меню, и так кнопка не теряется в потоке. */
+  .ds-btn-block {
+    width: 100%;
+    display: flex;
+  }
+}

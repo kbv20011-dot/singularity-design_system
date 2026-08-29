@@ -1,0 +1,35 @@
+<!-- @dsCard group="Components" viewport="700x520" name="Блоки страниц" subtitle="Hero, логотипы клиентов, FAQ, финальный CTA, cookie" -->
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><title>Блоки</title><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.js"></script>
+<script src="../../_ds_bundle.js"></script><style>body{margin:0;padding:20px 24px;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-sans)}.lbl{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 8px}</style></head><body><div id="root"></div><script type="text/babel">
+const { Hero, ClientLogos, Faq, FinalCta, CookieConsent } = window.DesignSystem_03bc73;
+function Card() {
+  const [open, setOpen] = React.useState(true);
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+      <Hero badge="Отвечаем в течение рабочего дня"
+        title="Готовые системы рассчитаны на типовой бизнес. Ваш — не такой."
+        subtitle="Разбираемся, как устроена ваша работа, и строим под неё: автоматизацию процессов, ИИ-инструменты, сайты."
+        ctaLabel="Получить разбор задачи" bgImage="../../assets/images/hero-visual.webp" style={{ padding: 0 }} />
+      <ClientLogos logos={[
+        { alt: 'Верба', mask: '../../assets/images/clients/verba.svg', color: 'var(--client-verba-brown)', width: 111 },
+        { alt: 'More House', src: '../../assets/images/clients/morehouse.png' },
+        { alt: 'ФХГАСР', src: '../../assets/images/clients/vfrgas.svg' },
+      ]} style={{ padding: 0 }} />
+      <Faq heading="Частые вопросы" idPrefix="card" style={{ padding: 0 }} items={[
+        { q: 'Сколько времени занимает разработка?', a: 'Понятная задача — смета за 2–3 дня после разбора. Сложная система — сначала короткое техзадание, потом смета.' },
+        { q: 'ИИ заменит моих сотрудников?', a: 'Нет, и мы это не продаём. ИИ забирает повторяющуюся работу.' },
+      ]} />
+      <FinalCta heading="Расскажите, что у вас происходит"
+        sub="20 минут с нашей командой. Разберём задачу и честно скажем, можем ли мы помочь."
+        ctaLabel="Получить разбор задачи" phone="+7 (915) 486-75-75" phoneHref="tel:+79154867575"
+        telegram="https://t.me/singularity_ai" style={{ borderRadius: 16, padding: '48px 24px' }} />
+      <CookieConsent visible={open} onAccept={() => setOpen(false)} onDecline={() => setOpen(false)}
+        body="Этот сайт использует cookies для улучшения пользовательского опыта и анализа трафика. Продолжая использовать сайт, вы соглашаетесь с нашей" style={{ padding: 0 }} />
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

@@ -1,0 +1,47 @@
+<!-- @dsCard group="Components" viewport="760x620" name="Доказательства и движение" subtitle="Quote, Timeline, живой градиент, прогресс чтения" -->
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><title>Доказательства и движение</title><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.js"></script>
+<script src="../../_ds_bundle.js"></script><style>body{margin:0;padding:20px 24px;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-sans)}.lbl{font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);margin:0 0 10px}.blk{margin-bottom:26px}a{color:var(--text-accent)}a:hover{color:var(--accent-hover)}</style></head><body><div id="root"></div><script type="text/babel">
+const { Quote, Timeline, GradientBackdrop, Button } = window.DesignSystem_03bc73;
+function Card() {
+  return (
+    <div>
+      <div className="blk">
+        <p className="lbl">Quote — отзыв клиента, атрибуция обязательна</p>
+        <Quote author="Богдан Сергеев" role="руководитель отдела продаж" company="Верба" meta="проект — 6 недель">
+          Отчёт, который раньше собирали три дня, теперь приходит утром сам. Спорить с цифрами стало проще, чем их искать.
+        </Quote>
+      </div>
+      <div className="blk">
+        <p className="lbl">Timeline — этапы внедрения</p>
+        <Timeline steps={[
+          { title: 'Разбор задачи', duration: '3–5 дней', body: 'Смотрим процесс и считаем, где именно теряется время.' },
+          { title: 'Прототип', duration: '2 недели', body: 'Собираем работающий кусок и проверяем на живых данных.', status: 'prototype' },
+          { title: 'Внедрение', duration: '4–6 недель', body: 'Доводим до прода и передаём команде.', status: 'delivered' },
+        ]} />
+      </div>
+      <div className="blk">
+        <p className="lbl">GradientBackdrop — живой фон секции + Quote variant=inverse</p>
+        <section style={{ position: 'relative', overflow: 'hidden', borderRadius: 'var(--radius-lg)', padding: 'var(--space-8)' }}>
+          <GradientBackdrop />
+          <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
+            <Quote variant="inverse" author="Максим Дорохов" role="операционный директор" company="Полюс">
+              Мы перестали держать в голове, кто кому передал заявку.
+            </Quote>
+            <div><Button variant="onAccent" icon="arrow-right">Получить разбор задачи</Button></div>
+          </div>
+        </section>
+      </div>
+      <div>
+        <p className="lbl">ScrollProgress</p>
+        <p style={{ margin: 0, fontSize: 14, color: 'var(--text-secondary)', lineHeight: 1.6, maxWidth: 560 }}>
+          Полоса 3px фиксирована сверху окна, поэтому в карточке не показывается. Ставится один раз на длинную страницу рядом с <code>SiteHeader</code>.
+        </p>
+      </div>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+</script></body></html>

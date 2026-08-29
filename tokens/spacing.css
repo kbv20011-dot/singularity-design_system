@@ -1,0 +1,35 @@
+/* РАЗМЕТКА И ОТСТУПЫ. Шкала Tailwind в тех значениях, что реально стоят в коде. */
+
+:root {
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px — gap в сетках списков */
+  --space-5: 1.25rem; /* 20px — padding карточки-пункта */
+  --space-6: 1.5rem; /* 24px — gap сеток карточек, padding контейнера (моб.) */
+  --space-8: 2rem; /* 32px — padding карточки, gap сеток кейсов */
+  --space-10: 2.5rem; /* 40px */
+  --space-12: 3rem; /* 48px */
+  --space-16: 4rem; /* 64px */
+  --space-20: 5rem; /* 80px — вертикаль секции (моб.) */
+  --space-24: 6rem; /* 96px — вертикаль секции (десктоп), отступ под шапку */
+  --space-32: 8rem; /* 128px — чёрные секции: команда, финальный CTA */
+
+  /* Контейнеры */
+  --container-wide: 80rem; /* max-w-7xl — шапка, подвал, чёрные секции */
+  --container-text: 64rem; /* max-w-5xl — контент секций */
+  --container-prose: 48rem; /* max-w-3xl — абзацы, KeyPoint */
+  --container-narrow: 42rem; /* max-w-2xl — подзаголовок hero */
+  --gutter: var(--space-6); /* px-6 */
+  --gutter-desktop: var(--space-8); /* md:px-8 */
+
+  /* Фиксированные элементы */
+  --header-height: 5rem; /* h-20 */
+  --header-offset: var(--space-24); /* main pt-24 */
+  --tap-target-min: 2.75rem; /* min-w-11 / min-h-11 — правка из дизайн-ревью */
+
+  /* Секции */
+  --section-py: var(--space-20);
+  --section-py-desktop: var(--space-24);
+  --section-py-inverse: var(--space-32);
+}

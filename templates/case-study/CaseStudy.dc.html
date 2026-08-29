@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Страница кейса" description="Разбор одного проекта: ситуация, что сделали, что изменилось в цифрах, отзыв, ссылка на работающий сайт" -->
+<helmet>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.js"></script>
+<script src="./ds-base.js"></script>
+<style>body{margin:0;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-sans)}</style>
+</helmet>
+<div style="min-height:100vh;padding-bottom:1px">
+<div style="max-width:var(--container-text);margin:0 auto;padding:96px var(--gutter) 0">
+<a href="#cases" style="display:inline-flex;align-items:center;gap:8px;margin-bottom:32px;font-size:var(--text-sm);font-weight:var(--weight-semibold);color:var(--text-muted);text-decoration:none">← Все проекты</a>
+<p style="margin:0 0 16px;font-size:var(--text-xs);font-weight:var(--weight-bold);color:var(--text-accent);text-transform:uppercase;letter-spacing:var(--tracking-label)">Банный комплекс · Одинцово</p>
+<h1 style="margin:0 0 24px;font-size:var(--type-h1);font-weight:var(--weight-extrabold);letter-spacing:var(--tracking-tight);line-height:var(--leading-tight);color:var(--text-primary);text-wrap:pretty">Заявки приходили в четыре разных места, и часть терялась</h1>
+<p style="margin:0 0 40px;max-width:var(--container-prose);font-size:var(--text-lg);color:var(--text-secondary);line-height:var(--leading-relaxed);text-wrap:pretty">Одно предложение о том, что изменилось после работы. Не «мы внедрили решение», а результат, который клиент видит у себя.</p>
+<div style="display:flex;flex-wrap:wrap;gap:32px;padding:24px 0;border-top:1px solid var(--border-subtle);border-bottom:1px solid var(--border-subtle);margin-bottom:48px">
+<sc-for list="{{ meta }}" as="m" hint-placeholder-count="4">
+<div>
+<p style="margin:0 0 4px;font-size:var(--text-xs);font-weight:var(--weight-bold);color:var(--text-muted);text-transform:uppercase;letter-spacing:var(--tracking-wide)">{{ m.label }}</p>
+<p style="margin:0;font-weight:var(--weight-semibold);color:var(--text-primary)">{{ m.value }}</p>
+</div>
+</sc-for>
+</div>
+<sc-if value="{{ showMedia }}" hint-placeholder-val="{{ true }}">
+<div style="width:100%;aspect-ratio:16/9;border-radius:var(--radius-lg);background:var(--gradient-case-placeholder);box-shadow:var(--shadow-xl);display:flex;align-items:flex-end;padding:24px;box-sizing:border-box;margin-bottom:64px">
+<p style="margin:0;color:rgba(255,255,255,0.85);font-size:var(--text-sm);font-weight:var(--weight-semibold)">Замените плашку на скриншот работающего сайта или экрана системы</p>
+</div>
+</sc-if>
+</div>
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,760px">
+<sc-for list="{{ chapters }}" as="ch" hint-placeholder-count="3">
+<div style="margin-bottom:64px">
+<h2 style="margin:0 0 24px;font-size:var(--type-h2);font-weight:var(--weight-bold);color:var(--text-primary);letter-spacing:var(--tracking-tight);text-wrap:pretty">{{ ch.title }}</h2>
+<p style="margin:0 0 16px;max-width:var(--container-prose);color:var(--text-secondary);line-height:var(--leading-relaxed);font-size:var(--text-lg);text-wrap:pretty">{{ ch.text }}</p>
+</div>
+</sc-for>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px">
+<sc-for list="{{ metrics }}" as="m" hint-placeholder-count="3">
+<x-import component-from-global-scope="DesignSystem_03bc73.Metric" hint-size="100%,180px" before="{{ m.before }}" after="{{ m.after }}" range="{{ m.range }}" label="{{ m.label }}" attribution="{{ m.attribution }}" note="{{ m.note }}"></x-import>
+</sc-for>
+</div>
+</x-import>
+<sc-if value="{{ showQuote }}" hint-placeholder-val="{{ true }}">
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,280px" muted="{{ true }}">
+<figure style="margin:0;max-width:var(--container-prose)">
+<blockquote style="margin:0 0 24px;font-size:var(--text-2xl);font-weight:var(--weight-bold);line-height:var(--leading-tight);color:var(--text-primary);letter-spacing:var(--tracking-tight);text-wrap:pretty">«Прямая речь клиента одним абзацем. Только то, что он действительно сказал — выдуманный отзыв виден сразу.»</blockquote>
+<figcaption style="color:var(--text-muted);font-size:var(--text-sm);font-weight:var(--weight-semibold)">Имя, должность · Компания</figcaption>
+</figure>
+</x-import>
+</sc-if>
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,260px">
+<h2 style="margin:0 0 24px;font-size:var(--type-h3);font-weight:var(--weight-bold);color:var(--text-primary)">Что осталось после сдачи</h2>
+<x-import component-from-global-scope="DesignSystem_03bc73.KeyPoint" hint-size="100%,140px" variant="rule" lead="Поддержка не заканчивается со сдачей проекта" support="Процессы меняются — решение приходится дорабатывать, и мы остаёмся на связи"></x-import>
+<p style="margin:32px 0 0"><a href="https://myverba.ru/" style="display:inline-flex;align-items:center;gap:8px;font-weight:var(--weight-semibold);color:var(--text-accent);text-decoration:none">myverba.ru →</a></p>
+</x-import>
+<x-import component-from-global-scope="DesignSystem_03bc73.FinalCta" hint-size="100%,380px" heading="Похожая ситуация?" sub="Расскажете, что происходит у вас — разберём, есть ли здесь задача. Если нет, скажем честно." cta-label="Получить разбор задачи" cta-href="#contact" phone="+7 (915) 486-75-75" phone-href="tel:+79154867575" telegram="https://t.me/singularity_ai" telegram-label="Telegram"></x-import>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showMedia&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Секции&quot;,&quot;label&quot;:&quot;Плашка со скриншотом&quot;},&quot;showQuote&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Секции&quot;,&quot;label&quot;:&quot;Отзыв клиента&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showMedia: this.props.showMedia ?? true,
+      showQuote: this.props.showQuote ?? true,
+      meta: [
+        { label: 'Клиент', value: 'Верба' },
+        { label: 'Что делали', value: 'Чат-бот и маршрутизация' },
+        { label: 'Срок', value: '6 недель' },
+        { label: 'Статус', value: 'Работает в проде' },
+      ],
+      chapters: [
+        { title: 'Что было', text: 'Опишите исходную ситуацию словами клиента, без диагноза. Что он замечал сам: сколько времени уходило, что терялось, на что жаловались сотрудники.' },
+        { title: 'Что сделали', text: 'Решение по шагам, без списка технологий. Технологии называйте только там, где они меняют смысл для клиента.' },
+        { title: 'Что изменилось', text: 'Только проверяемые утверждения. Если цифры измерены — приводите их; если это ожидаемый эффект, так и пишите.' },
+      ],
+      metrics: [
+        { before: 'три дня', after: 'четыре часа', label: 'обработка заявки', attribution: 'delivered' },
+        { before: '4 канала', after: '1 поток', label: 'источники заявок', attribution: 'delivered' },
+        { range: '+15–25%', label: 'ожидаемый эффект таких систем', attribution: 'concept', note: 'по опыту команды' },
+      ],
+    };
+  }
+}
+
+</script>
+</body>
+</html>

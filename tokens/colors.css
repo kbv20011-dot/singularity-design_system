@@ -1,0 +1,229 @@
+/* ЦВЕТ. Значения сняты с кода прода (Tailwind-утилиты в components/ и pages/).
+   Слой 1 — палитра (то, что реально встречается в разметке).
+   Слой 2 — семантика. У каждого семантического токена есть парное значение
+   для тёмной темы в блоке .dark ниже. */
+
+:root {
+  /* — Палитра: акцент (violet) — */
+  --violet-50: #f5f3ff;
+  --violet-100: #ede9fe;
+  --violet-200: #ddd6fe;
+  /* 300 и 950 в проде не встречались — добавлены, чтобы шкала была без дыр:
+     300 для тонких границ и заливок на violet-50, 950 для глубоких фонов. */
+  --violet-300: #c4b5fd;
+  --violet-400: #a78bfa;
+  --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+  --violet-800: #5b21b6;
+  --violet-900: #4c1d95;
+  --violet-950: #2e1065;
+  --fuchsia-500: #d946ef;
+  --fuchsia-600: #c026d3;
+
+  /* — Палитра: нейтральные — */
+  --white: #ffffff;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --gray-950: #030712;
+  --black: #000000;
+  /* Карточка команды на чёрной секции — не gray-950, а именно #0A0A0A. */
+  --black-card: #0a0a0a;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+
+  /* — Палитра: статусы и служебные — */
+  --emerald-50: #ecfdf5;
+  --emerald-200: #a7f3d0;
+  --emerald-300: #6ee7b7;
+  --emerald-500: #10b981;
+  --emerald-700: #047857;
+  --amber-50: #fffbeb;
+  --amber-200: #fde68a;
+  --amber-300: #fcd34d;
+  --amber-500: #f59e0b;
+  --amber-700: #b45309;
+  --green-400: #4ade80;
+  --yellow-400: #facc15;
+  --yellow-500: #eab308;
+  --blue-500: #3b82f6;
+  --cyan-500: #06b6d4;
+  --blue-900: #1e3a8a;
+
+  /* — Семантика: поверхности — */
+  --surface-page: var(--white);
+  --surface-raised: var(--white);
+  --surface-muted: var(--gray-50);
+  --surface-accent-soft: var(--violet-50);
+  --surface-inverse: var(--black);
+  --surface-inverse-card: var(--black-card);
+  --surface-cta: var(--gray-900);
+  --surface-footer: var(--black);
+  --surface-hover: var(--gray-50);
+  --surface-glass: rgba(255, 255, 255, 0.1);
+  --surface-scrim: rgba(0, 0, 0, 0.2);
+
+  /* — Семантика: текст — */
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-600);
+  --text-muted: var(--gray-500);
+  /* text-faint даёт 2.54:1 — только декоративные подписи и иконки, никогда
+     основной текст. Для читаемой мелкой подписи берите --text-muted. */
+  --text-faint: var(--gray-400);
+  --text-accent: var(--violet-600);
+  --text-on-accent: var(--white);
+  --text-on-inverse: var(--white);
+  --text-on-inverse-secondary: var(--gray-400);
+  /* Мелкий текст на чёрной секции (копирайт подвала 12px): gray-600 давал
+     4.34:1 при норме 4.5:1 — поднято до gray-400, 8.27:1. */
+  --text-on-inverse-faint: var(--gray-400);
+
+  /* — Семантика: текст на градиенте hero — */
+  --text-on-gradient: var(--white);
+  /* 4.22:1 при норме 3:1 для крупного — проходит. */
+  --text-on-gradient-secondary: rgba(255, 255, 255, 0.8);
+  /* Подпись под кнопкой: было 0.6 (3.01:1 при норме 4.5:1) — поднято до 0.85. */
+  --text-on-gradient-support: rgba(255, 255, 255, 0.85);
+  /* Надзаголовок 12px капсом: violet-200 давал 4.10:1 — заменён на violet-100. */
+  --text-on-gradient-eyebrow: var(--violet-100);
+
+  /* — Семантика: границы — */
+  --border-subtle: var(--gray-100);
+  --border-default: var(--gray-200);
+  --border-strong: var(--gray-700);
+  --border-accent-soft: var(--violet-100);
+  --border-accent: var(--violet-600);
+  --border-glass: rgba(255, 255, 255, 0.2);
+
+  /* — Семантика: акцент и действия — */
+  --accent: var(--violet-600);
+  --accent-hover: var(--violet-700);
+  --accent-quiet: var(--violet-400);
+  --action-primary-bg: var(--gray-900);
+  --action-primary-bg-hover: var(--violet-600);
+  --action-primary-text: var(--white);
+  --action-on-accent-bg: var(--white);
+  --action-on-accent-text: var(--violet-900);
+
+  /* — Семантика: статус решения (обязательный элемент, positioning §8) — */
+  --status-delivered-bg: var(--emerald-50);
+  --status-delivered-text: var(--emerald-700);
+  --status-delivered-border: var(--emerald-200);
+  --status-prototype-bg: var(--amber-50);
+  --status-prototype-text: var(--amber-700);
+  --status-prototype-border: var(--amber-200);
+  --status-concept-bg: var(--gray-100);
+  --status-concept-text: var(--gray-600);
+  --status-concept-border: var(--gray-200);
+  --status-live-dot: var(--green-400);
+
+  /* — Семантика: валидация формы — */
+  --danger: #ef4444;
+  --danger-text: #dc2626;
+  --danger-bg: #fef2f2;
+  --danger-border: #fecaca;
+  --success-text: #16a34a;
+  --success-bg: #f0fdf4;
+  --success-border: #bbf7d0;
+
+  /* — Семантика: люди (цвет закреплён за сотрудником в data/team.ts) — */
+  --person-bogdan: var(--blue-500);
+  --person-maxim: var(--cyan-500);
+  --person-savely: var(--violet-500);
+
+  /* — Градиенты —
+     Прод-значение hero яркое: violet-500 → fuchsia-600 → violet-700. Фуксия в
+     середине светлее и насыщеннее краёв, поэтому полотно «звенит», а белый
+     текст поверх держится на пределе. Основным сделан приглушённый вариант:
+     те же три цвета на шаг глубже, фуксия уведена в 700 по светлоте.
+     Вернуть прод одной строкой: --gradient-hero: var(--gradient-hero-vivid). */
+  --gradient-hero: linear-gradient(
+    to bottom right,
+    var(--violet-600),
+    #a21caf,
+    var(--violet-800)
+  );
+  --gradient-hero-vivid: linear-gradient(
+    to bottom right,
+    var(--violet-500),
+    var(--fuchsia-600),
+    var(--violet-700)
+  ); /* @kind other */
+  --gradient-case-placeholder: linear-gradient(to bottom right, var(--violet-600), var(--violet-700), #3730a3); /* @kind other */
+  --gradient-cube: linear-gradient(135deg, #9b7cf6 0%, var(--violet-700) 100%); /* @kind other */
+  --gradient-sphere: radial-gradient(circle at 30% 30%, var(--violet-200), var(--violet-600)); /* @kind other */
+
+  /* — Брендовый цвет клиента (маска логотипа Вербы) — */
+  --client-verba-brown: #6b4423;
+}
+
+.dark {
+  --surface-page: var(--gray-900);
+  --surface-raised: var(--gray-800);
+  --surface-muted: rgba(31, 41, 55, 0.5);
+  --surface-accent-soft: rgba(76, 29, 149, 0.2);
+  --surface-inverse: var(--black);
+  --surface-inverse-card: var(--black-card);
+  --surface-cta: var(--black);
+  --surface-footer: var(--gray-950);
+  --surface-hover: var(--gray-800);
+  --surface-glass: rgba(255, 255, 255, 0.1);
+  --surface-scrim: rgba(0, 0, 0, 0.2);
+
+  --text-primary: var(--gray-100);
+  --text-secondary: var(--gray-400);
+  --text-muted: var(--gray-400);
+  --text-faint: var(--gray-500);
+  --text-accent: var(--violet-400);
+  --text-on-accent: var(--white);
+  --text-on-inverse: var(--white);
+  --text-on-inverse-secondary: var(--gray-400);
+  --text-on-inverse-faint: var(--gray-400);
+
+  --border-subtle: var(--gray-700);
+  --border-default: var(--gray-700);
+  --border-strong: var(--gray-800);
+  --border-accent-soft: var(--violet-800);
+  --border-accent: var(--violet-600);
+  --border-glass: rgba(255, 255, 255, 0.2);
+
+  --accent: var(--violet-600);
+  --accent-hover: var(--violet-700);
+  --accent-quiet: var(--violet-400);
+  --action-primary-bg: var(--violet-600);
+  --action-primary-bg-hover: var(--violet-700);
+  --action-primary-text: var(--white);
+  --action-on-accent-bg: var(--white);
+  --action-on-accent-text: var(--violet-900);
+
+  --status-delivered-bg: rgba(16, 185, 129, 0.1);
+  --status-delivered-text: var(--emerald-300);
+  --status-delivered-border: rgba(16, 185, 129, 0.3);
+  --status-prototype-bg: rgba(245, 158, 11, 0.1);
+  --status-prototype-text: var(--amber-300);
+  --status-prototype-border: rgba(245, 158, 11, 0.3);
+  --status-concept-bg: rgba(55, 65, 81, 0.6);
+  --status-concept-text: var(--gray-300);
+  --status-concept-border: var(--gray-600);
+  --status-live-dot: var(--green-400);
+
+  --person-bogdan: var(--blue-500);
+  --person-maxim: var(--cyan-500);
+  --person-savely: var(--violet-500);
+
+  --danger: #f87171;
+  --danger-text: #f87171;
+  --danger-bg: rgba(127, 29, 29, 0.2);
+  --danger-border: rgba(153, 27, 27, 0.5);
+  --success-text: #4ade80;
+  --success-bg: rgba(20, 83, 45, 0.2);
+  --success-border: rgba(22, 101, 52, 0.5);
+}

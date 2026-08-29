@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<!-- @template name="Лендинг сегмента" description="Страница одной услуги или отрасли: узнавание ситуации, процесс, доказательство, FAQ, финальный CTA" -->
+<helmet>
+<script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.js"></script>
+<script src="./ds-base.js"></script>
+<style>body{margin:0;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-sans)}</style>
+</helmet>
+<div style="min-height:100vh;padding-bottom:1px">
+<x-import component-from-global-scope="DesignSystem_03bc73.Hero" hint-size="100%,520px" style="display:block;padding-top:48px" title="Готовые системы рассчитаны на типовой бизнес. Ваш — не такой." subtitle="Замените заголовок на узнавание ситуации сегмента, а не на название услуги. Подзаголовок объясняет, почему сюда пришли именно вы." eyebrow="НАЗВАНИЕ СЕГМЕНТА" ctaLabel="Получить разбор задачи" ctaHref="#contact" subText="20 минут с нашей командой. Если поймём, что не поможем — скажем сразу." bgImage="../../assets/images/hero-bg.webp"></x-import>
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,420px">
+<h2 style="margin:0 0 40px;font-size:var(--type-h2);font-weight:var(--weight-bold);color:var(--text-primary);letter-spacing:var(--tracking-tight);max-width:var(--container-narrow);text-wrap:pretty">С этого начинают почти все</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px">
+<sc-for list="{{ situations }}" as="item" hint-placeholder-count="3">
+<div style="height:100%;box-sizing:border-box;background:var(--surface-raised);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:var(--card-pad)">
+<p style="margin:0 0 8px;font-size:var(--text-xs);font-weight:var(--weight-bold);color:var(--text-accent);text-transform:uppercase;letter-spacing:var(--tracking-label)">{{ item.label }}</p>
+<p style="margin:0;color:var(--text-secondary);line-height:var(--leading-relaxed);text-wrap:pretty">{{ item.text }}</p>
+</div>
+</sc-for>
+</div>
+</x-import>
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,520px" muted="{{ true }}">
+<h2 style="margin:0 0 40px;font-size:var(--type-h2);font-weight:var(--weight-bold);color:var(--text-primary);letter-spacing:var(--tracking-tight);max-width:var(--container-narrow);text-wrap:pretty">Диагностика, потом решение — не наоборот</h2>
+<div style="display:flex;flex-direction:column;gap:24px;margin-bottom:40px">
+<sc-for list="{{ steps }}" as="step" hint-placeholder-count="4">
+<div style="display:flex;gap:20px">
+<div style="flex-shrink:0;width:40px;height:40px;border-radius:var(--radius-pill);background:var(--accent);color:var(--text-on-accent);font-weight:var(--weight-bold);display:flex;align-items:center;justify-content:center">{{ step.n }}</div>
+<div>
+<p style="margin:0 0 4px;font-weight:var(--weight-bold);color:var(--text-primary)">{{ step.title }}</p>
+<p style="margin:0;max-width:var(--container-prose);color:var(--text-secondary);line-height:var(--leading-relaxed);text-wrap:pretty">{{ step.text }}</p>
+</div>
+</div>
+</sc-for>
+</div>
+<x-import component-from-global-scope="DesignSystem_03bc73.KeyPoint" hint-size="100%,140px" variant="card" lead="Если на разборе выяснится, что задача не окупится — мы скажем это прямо и не возьмём проект" support="Это не благотворительность: браться за то, что не даст эффекта, дороже для репутации, чем отказаться"></x-import>
+</x-import>
+<sc-if value="{{ proofCases }}" hint-placeholder-val="{{ true }}">
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,460px">
+<h2 style="margin:0 0 40px;font-size:var(--type-h2);font-weight:var(--weight-bold);color:var(--text-primary);letter-spacing:var(--tracking-tight);max-width:var(--container-narrow);text-wrap:pretty">Что у нас работает прямо сейчас</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px">
+<sc-for list="{{ cases }}" as="c" hint-placeholder-count="2">
+<x-import component-from-global-scope="DesignSystem_03bc73.CaseCard" hint-size="100%,260px" variant="compact" name="{{ c.name }}" subtitle="{{ c.subtitle }}" description="{{ c.description }}" result="{{ c.result }}" url="{{ c.url }}" url-label="{{ c.urlLabel }}"></x-import>
+</sc-for>
+</div>
+</x-import>
+</sc-if>
+<sc-if value="{{ proofMetrics }}" hint-placeholder-val="{{ false }}">
+<x-import component-from-global-scope="DesignSystem_03bc73.Section" hint-size="100%,360px">
+<h2 style="margin:0 0 40px;font-size:var(--type-h2);font-weight:var(--weight-bold);color:var(--text-primary);letter-spacing:var(--tracking-tight);max-width:var(--container-narrow);text-wrap:pretty">Что изменилось в цифрах</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px">
+<sc-for list="{{ metrics }}" as="m" hint-placeholder-count="3">
+<x-import component-from-global-scope="DesignSystem_03bc73.Metric" hint-size="100%,180px" before="{{ m.before }}" after="{{ m.after }}" range="{{ m.range }}" label="{{ m.label }}" attribution="{{ m.attribution }}"></x-import>
+</sc-for>
+</div>
+</x-import>
+</sc-if>
+<sc-if value="{{ showFaq }}" hint-placeholder-val="{{ true }}">
+<x-import component-from-global-scope="DesignSystem_03bc73.Faq" hint-size="100%,420px" heading="Частые вопросы" items="{{ faq }}" id-prefix="segment"></x-import>
+</sc-if>
+<x-import component-from-global-scope="DesignSystem_03bc73.FinalCta" hint-size="100%,380px" heading="Начнём с разговора" sub="Расскажете, что происходит в бизнесе — разберём, есть ли здесь задача. Если нет, скажем честно." cta-label="Получить разбор задачи" cta-href="#contact" phone="+7 (915) 486-75-75" phone-href="tel:+79154867575" telegram="https://t.me/singularity_ai" telegram-label="Telegram"></x-import>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;proof&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;cases&quot;,&quot;metrics&quot;],&quot;default&quot;:&quot;cases&quot;,&quot;tsType&quot;:&quot;'cases' | 'metrics'&quot;,&quot;section&quot;:&quot;Доказательство&quot;,&quot;label&quot;:&quot;Чем доказываем&quot;},&quot;showFaq&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Секции&quot;,&quot;label&quot;:&quot;Блок FAQ&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const proof = this.props.proof ?? 'cases';
+    return {
+      proofCases: proof === 'cases',
+      proofMetrics: proof === 'metrics',
+      showFaq: this.props.showFaq ?? true,
+      situations: [
+        { label: 'Как это ощущается', text: 'Что-то отнимает слишком много времени, конкуренты «уже что-то внедряют», а с чего начать — непонятно' },
+        { label: 'Что видно снаружи', text: 'Симптом виден сразу, причина — нет. Она может быть совсем не там, где болит.' },
+        { label: 'Почему начинаем не с этого', text: 'Чинить симптом — потратить деньги и не решить задачу. Поэтому начинаем с разбора.' },
+      ],
+      steps: [
+        { n: 1, title: 'Разговор, 20 минут', text: 'Консультант по стратегии и операционным моделям, не менеджер по продажам. Задача разговора — понять, что у вас происходит.' },
+        { n: 2, title: 'Разбор процессов', text: 'Где именно теряется время, что стоит менять, а что дешевле починить организационно' },
+        { n: 3, title: 'Техзадание', text: 'Для сложных задач — сначала оно, потом смета. Так вы платите за то, что действительно нужно.' },
+        { n: 4, title: 'Разработка и поддержка', text: 'Full-stack разработка с опытом интеграций. Поддержка после сдачи — тоже на нас.' },
+      ],
+      cases: [
+        { name: 'Верба', subtitle: 'Банный комплекс, Одинцово', description: 'Замените описание на настоящий кейс сегмента: что было, что сделали, что изменилось.', result: 'сделан, запущен, работает', url: 'https://myverba.ru/', urlLabel: 'myverba.ru' },
+        { name: 'More House', subtitle: 'Застройщик энергоэффективных домов', description: 'Второй кейс. Если кейса в сегменте нет — переключите доказательство на цифры и не выдумывайте клиента.', result: 'лид → CRM с уведомлениями', url: 'https://morehouse.ru/', urlLabel: 'morehouse.ru' },
+      ],
+      metrics: [
+        { before: 'три дня', after: 'четыре часа', label: 'обработка заявки', attribution: 'delivered' },
+        { before: '40%', after: '92%', label: 'заявки с полной карточкой', attribution: 'delivered' },
+        { range: '+15–25%', label: 'ожидаемый эффект таких систем', attribution: 'concept' },
+      ],
+      faq: [
+        { q: 'Сколько времени занимает внедрение?', a: 'Зависит от задачи: от нескольких дней до нескольких недель. Точный срок называем после разбора — универсального ответа нет.' },
+        { q: 'Нужно ли нанимать программиста для поддержки?', a: 'Нет. Поддержку и доработки берём на себя.' },
+        { q: 'Что если нужно поменять логику после запуска?', a: 'Оформляем как отдельную задачу и оцениваем по той же матрице. Решение не застывает после сдачи.' },
+      ],
+    };
+  }
+}
+
+</script>
+</body>
+</html>

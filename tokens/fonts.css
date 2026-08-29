@@ -1,0 +1,21 @@
+/* Manrope Variable — единственный шрифт системы.
+   В проде подключается пакетом @fontsource-variable/manrope; бинарников шрифта
+   в репозитории нет, поэтому здесь то же семейство берётся с Google Fonts.
+   Если нужны локальные .woff2 — положите их в assets/fonts/ и замените @import
+   на @font-face с теми же весами (200–800). */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* Space Grotesk — только для цифр крупных метрик (роль --type-metric). Тот же
+   геометрический строй, но цифры техничнее и заметно шире Manrope, поэтому
+   число в карточке читается как показатель, а не как продолжение текста. */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500..700&display=swap');
+
+:root {
+  --font-sans: 'Manrope', 'Manrope Variable', sans-serif;
+  /* Второго шрифта в системе нет: заголовки, текст и подписи — один Manrope
+     с разными весами и трекингом. */
+  --font-display: var(--font-sans);
+  /* Цифры: применяется ТОЛЬКО в роли метрики. Шаги, цены, бейджи и текст
+     остаются на Manrope — иначе система распадается на два шрифта. */
+  --font-numeric: 'Space Grotesk', var(--font-sans);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}

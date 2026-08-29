@@ -1,0 +1,81 @@
+/* ТИПОГРАФИКА. Один шрифт — Manrope. Размеры и трекинг сняты с прода:
+   мобильное значение / десктопное указаны парами там, где в коде стоит md:. */
+
+:root {
+  /* Размеры (rem = 16px) */
+  --text-2xs: 0.625rem; /* 10px — тэглайн в шапке */
+  --text-xs: 0.75rem; /* 12px — надзаголовки, бейджи, копирайт */
+  --text-sm: 0.875rem; /* 14px — подписи, CTA-кнопки, шаги */
+  --text-base: 1rem; /* 16px — основной текст */
+  --text-lg: 1.125rem; /* 18px — лид-абзацы, крупный текст карточек */
+  --text-xl: 1.25rem; /* 20px — подзаголовок hero (моб.), названия карточек */
+  --text-2xl: 1.5rem; /* 24px — h3, KeyPoint rule */
+  --text-3xl: 1.875rem; /* 30px — h2 (моб.), название кейса */
+  --text-4xl: 2.25rem; /* 36px — h2 (десктоп), цифра метрики (моб.) */
+  --text-5xl: 3rem; /* 48px — h1 (десктоп), цифра метрики */
+  --text-6xl: 3.75rem; /* 60px — заголовок чёрной секции и финального CTA */
+
+  /* Веса */
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* Межстрочные */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+
+  /* Трекинг */
+  --tracking-tighter: -0.05em; /* СИНГУЛЯРНОСТЬ в подвале */
+  --tracking-tight: -0.025em; /* h1, h2, логотип в шапке */
+  --tracking-normal: 0;
+  --tracking-wide: 0.025em; /* меню, кнопки */
+  --tracking-widest: 0.1em; /* eyebrow в hero */
+  --tracking-label: 0.2em; /* надзаголовки секций и подвала */
+
+  /* Мобильные значения ролей: в проде у каждой роли пара text-* / md:text-*.
+     Без них система врёт про телефон, а канал у сайта именно мобильный. */
+  --type-h1-size-mobile: var(--text-3xl); /* 30px, десктоп 48 */
+  --type-h2-size-mobile: var(--text-3xl); /* 30px, десктоп 36 */
+  --type-h3-size-mobile: var(--text-lg); /* 18px, десктоп 20 */
+  --type-lead-size-mobile: var(--text-base); /* 16px, десктоп 18 */
+  --type-metric-size-mobile: var(--text-4xl); /* 36px, десктоп 48 */
+  --type-inverse-heading-size-mobile: var(--text-4xl); /* 36px, десктоп 60 */
+  --section-heading-gap: var(--space-4);
+
+  /* Готовые роли */
+  --type-h1-size: var(--text-5xl);
+  --type-h1-weight: var(--weight-extrabold);
+  --type-h1-leading: var(--leading-tight);
+  --type-h1-tracking: var(--tracking-tight);
+
+  --type-h2-size: var(--text-4xl);
+  --type-h2-weight: var(--weight-bold);
+  --type-h2-leading: var(--leading-tight);
+
+  --type-h3-size: var(--text-xl);
+  --type-h3-weight: var(--weight-bold);
+  --type-h3-leading: var(--leading-snug);
+
+  --type-body-size: var(--text-base);
+  --type-body-leading: var(--leading-relaxed);
+
+  --type-lead-size: var(--text-lg);
+  --type-lead-leading: var(--leading-relaxed);
+
+  --type-label-size: var(--text-xs);
+  --type-label-weight: var(--weight-bold);
+  --type-label-tracking: var(--tracking-label);
+  --type-label-transform: uppercase; /* @kind other */
+
+  --type-metric-size: var(--text-5xl);
+  --type-metric-weight: var(--weight-extrabold);
+  /* Единственная роль с другим шрифтом. 700 вместо 800: у Space Grotesk нет
+     extrabold, и на крупном кегле bold даёт ту же плотность. */
+  --type-metric-font: var(--font-numeric);
+  --type-metric-weight-numeric: var(--weight-bold);
+  --type-metric-numeric: tabular-nums; /* @kind other */
+}

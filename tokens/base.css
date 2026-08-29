@@ -1,0 +1,74 @@
+/* БАЗА. Перенесено из styles.css прода: сглаживание, выделение, скроллбар,
+   декоративные фигуры, страховка reduced-motion. Плюс дефолтные ссылки. */
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background: var(--surface-page);
+}
+
+a {
+  color: var(--text-accent);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+.dark a:hover {
+  color: var(--violet-200);
+}
+
+::selection {
+  background-color: var(--violet-500);
+  color: var(--white);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--slate-300);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--slate-400);
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Декоративные фигуры первого экрана. Лежат на фиолетовом градиенте,
+   который не зависит от темы, поэтому dark-вариантов нет. */
+.shape-cube {
+  background: var(--gradient-cube);
+  box-shadow: var(--shadow-cube);
+}
+.shape-sphere {
+  background: var(--gradient-sphere);
+  box-shadow: var(--shadow-sphere);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,57 @@
+/* АНИМАЦИЯ. Значения из framer-motion и Tailwind-классов прода.
+   Всё, что двигается, обязано уважать prefers-reduced-motion — в коде это
+   useReducedMotion в компонентах плюс глобальное правило в base.css. */
+
+:root {
+  /* Длительности */
+  --duration-instant: 150ms; /* @kind other */
+  --duration-fast: 250ms; /* @kind other */
+  --duration-base: 300ms; /* @kind other */
+  --duration-slow: 500ms; /* @kind other */
+  --duration-slower: 700ms; /* @kind other */
+  --duration-reveal: 450ms; /* @kind other */
+  --duration-section: 500ms; /* @kind other */
+  --duration-hero: 600ms; /* @kind other */
+  --duration-word: 320ms; /* @kind other */
+  --duration-count: 1400ms; /* @kind other */
+  --duration-cipher: 1500ms; /* @kind other */
+
+  /* Кривые */
+  --ease-out: cubic-bezier(0, 0, 0.2, 1); /* @kind other */
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+
+  /* Каскады */
+  --stagger-word: 30ms; /* @kind other */
+  /* delay = i * 0.06 */
+  --stagger-list: 60ms; /* @kind other */
+  /* delay = i * 0.08 */
+  --stagger-steps: 80ms; /* @kind other */
+  /* delay = i * 0.1 */
+  --stagger-cards: 100ms; /* @kind other */
+
+  /* Смещения появления */
+  --reveal-offset: 16px; /* @kind other */
+  --reveal-offset-section: 24px; /* @kind other */
+  --reveal-offset-word: 6px; /* @kind other */
+  --reveal-margin: -40px; /* @kind other */
+  --reveal-margin-section: -80px; /* @kind other */
+
+  /* Hover / press */
+  --lift-sm: -0.125rem; /* @kind other */
+  --lift: -0.25rem; /* @kind other */
+  --zoom-card: 1.03; /* @kind other */
+  --zoom-image: 1.05; /* @kind other */
+  --zoom-icon: 1.1; /* @kind other */
+
+  /* Плавание фигур hero */
+  --float-slow: float 8s ease-in-out infinite; /* @kind other */
+  --float-medium: float 6s ease-in-out infinite; /* @kind other */
+  --float-fast: float 4s ease-in-out infinite; /* @kind other */
+  --float-distance: -20px; /* @kind other */
+
+  /* Параллакс hero: сдвиг на 800px прокрутки */
+  --parallax-fast: 250px; /* @kind other */
+  --parallax-slow: 100px; /* @kind other */
+  --parallax-reverse: -150px; /* @kind other */
+  --parallax-blur: 150px; /* @kind other */
+}

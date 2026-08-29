@@ -1,0 +1,45 @@
+/* ТЕНИ. Решение пользователя: библиотеку из 93 примеров не берём — фиксируем
+   четыре уровня, которые реально стоят в коде (Tailwind sm / lg / xl / 2xl),
+   плюс две «объёмные» тени декоративных фигур и inset-тень стеклянной рамки.
+
+   Тёмная тема: значения совпадают со светлой — в проде классы shadow-* не
+   имеют dark-вариантов. Токены объявлены в .dark явно, чтобы это было
+   решением, а не пропуском. */
+
+:root {
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+
+  /* Стеклянная рамка hero: внутренний блик + глубокая внешняя тень. */
+  --shadow-glass: inset 1px 1px 0 rgba(255, 255, 255, 0.2), 0 20px 50px rgba(0, 0, 0, 0.3);
+  /* Точка «отвечаем в течение дня» — свечение, а не тень. */
+  --shadow-live-dot: 0 0 10px rgba(74, 222, 128, 0.5);
+  /* Декоративные фигуры первого экрана. */
+  --shadow-cube: 0 20px 40px rgba(124, 58, 237, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.4);
+  --shadow-sphere: 0 20px 40px rgba(139, 92, 246, 0.4), inset -10px -10px 20px rgba(0, 0, 0, 0.1);
+
+  /* Уровни в ролях */
+  --shadow-card: var(--shadow-sm);
+  --shadow-card-hover: var(--shadow-xl);
+  --shadow-button: var(--shadow-lg);
+  --shadow-button-hover: var(--shadow-xl);
+  --shadow-hero: var(--shadow-2xl);
+}
+
+.dark {
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --shadow-glass: inset 1px 1px 0 rgba(255, 255, 255, 0.2), 0 20px 50px rgba(0, 0, 0, 0.3);
+  --shadow-live-dot: 0 0 10px rgba(74, 222, 128, 0.5);
+  --shadow-cube: 0 20px 40px rgba(124, 58, 237, 0.3), inset 0 2px 0 rgba(255, 255, 255, 0.4);
+  --shadow-sphere: 0 20px 40px rgba(139, 92, 246, 0.4), inset -10px -10px 20px rgba(0, 0, 0, 0.1);
+  --shadow-card: var(--shadow-sm);
+  --shadow-card-hover: var(--shadow-xl);
+  --shadow-button: var(--shadow-lg);
+  --shadow-button-hover: var(--shadow-xl);
+  --shadow-hero: var(--shadow-2xl);
+}
