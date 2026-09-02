@@ -3,7 +3,33 @@ branch: dev — работа идёт здесь, master отстаёт
 
 ## Last sync
 
-date: 2026-09-02T00:00:00Z
+date: 2026-09-03T00:00:00Z
+
+### Синхронизация 03.09.2026 — страница решения
+
+Коммиты `f98be0f`, `56600ec`, `6cf7e0f` и `ce1d1bb`.
+
+- **Три новых блока:** `SolutionHero` (первый экран с градиентной подложкой и
+  стеклянной карточкой цифр), `SolutionPipeline` (тёмная полоса с каскадом из
+  четырёх узлов) и `SolutionStack` (три тезиса вместо ленты тегов). Демо —
+  `components/blocks/solution-page.card.html`
+- **Правила страницы решения записаны в `readme.md`** отдельным разделом: три
+  зоны, ровно четыре узла и три тезиса, англицизмов в тезисах нет, атрибуция
+  цифр живёт в заголовке карточки эффекта
+- **Пояснительные строки под цифрами сняты** решением владельца от 02.09.2026
+  («цифры обобщённые», «решение мы пока не внедряли»). В системе это записано
+  дважды — в разделе про страницу и в комментарии `SolutionHero`, — потому что
+  правило §8 позиционирования само по себе подсказывает вернуть их обратно
+- **Две страницы сайта удалены 03.09.2026:** `/automation/ai` как пересказ
+  `/automation` и `/sites/seo` как отдельная услуга вместо опции. Инвентарь
+  маршрутов в `readme.md` приведён к одиннадцати
+- **Расхождения с прод-кодом, оставленные сознательно:** карточки узлов на
+  тёмной полосе в проде набраны `gray-800`/`gray-900`, здесь — токеном
+  `--surface-glass`, потому что отдельного токена «карточка на инверсии» в
+  системе нет; фиолетовая подсветка последнего узла в проде заливкой,
+  здесь — только рамкой и цветом заголовка
+- **Не переносилось:** экран страницы решения в `ui_kits/` — страница целиком
+  состоит из трёх блоков выше, и кит повторил бы их третьей копией
 
 ### Синхронизация 02.09.2026 — карточки каталога
 
@@ -58,6 +84,7 @@ date: 2026-09-02T00:00:00Z
 | ui_kits/site/privacy.html · Политика | pages/PrivacyPolicy.tsx |
 | components/core/* | components/Button (инлайн в Layout/Hero/FinalCta), components/Accent.tsx, components/KeyPoint.tsx, components/AnimatedNumber.tsx, components/CipherText.tsx, components/Section.tsx, components/Reveal.tsx, contexts/ThemeContext.tsx |
 | components/cards/* | components/CaseCard.tsx, components/SolutionCard.tsx, data/solutions.ts (поля `addressee` и `accent`), data/solution-details.ts (метрики) |
+| components/blocks/SolutionHero, SolutionPipeline, SolutionStack | pages/SolutionPage.tsx, components/SolutionPipeline.tsx, components/SolutionStack.tsx, data/solution-details.ts |
 | components/blocks/* | components/Hero.tsx, components/HeroShapes.tsx, components/Layout.tsx (шапка и подвал), components/ClientLogos.tsx, components/Faq.tsx, components/FinalCta.tsx, components/CookieConsent.tsx |
 | ui_kits/site/index.html · Контакты (#contact) | pages/ContactForm.tsx, data/contacts.ts |
 | ui_kits/site/index.html · Сотрудник (#team/:slug) | pages/EmployeePage.tsx, data/team.ts |
@@ -67,6 +94,7 @@ date: 2026-09-02T00:00:00Z
 
 ## Sync history
 
+- 2026-09-03T00:00:00Z — страница решения: три блока, правила трёх зон, снятые страницы `/automation/ai` и `/sites/seo`.
 - 2026-09-02T00:00:00Z — карточка решения по коммиту `e15da6d`: плашка адресата, метрика, акценты; статусы с карточки сняты.
 - 2026-09-01T18:00:00Z — токены контраста пересчитаны со стеклом, GEO убрано, девять компонентов в инвентарь, ярусы заголовков, титул колоды.
 - 2026-08-15T09:40:00Z — экраны `/automation` и `/privacy` в UI-кит, шапка/подвал/переключатель темы как компоненты, три шаблона.

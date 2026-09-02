@@ -222,6 +222,18 @@
         "message": "<SiteNavItem> doesn't accept that prop. Declared props: label, href."
       },
       {
+        "selector": "JSXOpeningElement[name.name='SolutionHero'] > JSXAttribute > JSXIdentifier[name!=/^(?:addressee|title|lead|ctaLabel|ctaHref|ctaNote|effectLabel|metrics|gains|style|key|ref|className|style|children)$/]",
+        "message": "<SolutionHero> doesn't accept that prop. Declared props: addressee, title, lead, ctaLabel, ctaHref, ctaNote, effectLabel, metrics, gains, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SolutionPipeline'] > JSXAttribute > JSXIdentifier[name!=/^(?:nowLabel|now|howLabel|nodes|style|key|ref|className|style|children)$/]",
+        "message": "<SolutionPipeline> doesn't accept that prop. Declared props: nowLabel, now, howLabel, nodes, style."
+      },
+      {
+        "selector": "JSXOpeningElement[name.name='SolutionStack'] > JSXAttribute > JSXIdentifier[name!=/^(?:heading|items|style|key|ref|className|style|children)$/]",
+        "message": "<SolutionStack> doesn't accept that prop. Declared props: heading, items, style."
+      },
+      {
         "selector": "JSXOpeningElement[name.name='SolutionCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:addressee|title|short|accent|metric|metricNote|runningAt|runningAtLabel|moreLabel|href|style|key|ref|className|style|children)$/]",
         "message": "<SolutionCard> doesn't accept that prop. Declared props: addressee, title, short, accent, metric, metricNote, runningAt, runningAtLabel, moreLabel, href, style."
       },

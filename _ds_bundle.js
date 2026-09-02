@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"DesignSystem_03bc73","components":[{"name":"ClientLogos","sourcePath":"components/blocks/ClientLogos.jsx"},{"name":"CookieConsent","sourcePath":"components/blocks/CookieConsent.jsx"},{"name":"Faq","sourcePath":"components/blocks/Faq.jsx"},{"name":"FinalCta","sourcePath":"components/blocks/FinalCta.jsx"},{"name":"GradientBackdrop","sourcePath":"components/blocks/GradientBackdrop.jsx"},{"name":"Hero","sourcePath":"components/blocks/Hero.jsx"},{"name":"HeroShapes","sourcePath":"components/blocks/HeroShapes.jsx"},{"name":"SiteFooter","sourcePath":"components/blocks/SiteFooter.jsx"},{"name":"SiteHeader","sourcePath":"components/blocks/SiteHeader.jsx"},{"name":"Timeline","sourcePath":"components/blocks/Timeline.jsx"},{"name":"CaseCard","sourcePath":"components/cards/CaseCard.jsx"},{"name":"SolutionCard","sourcePath":"components/cards/SolutionCard.jsx"},{"name":"Accent","sourcePath":"components/core/Accent.jsx"},{"name":"AnimatedNumber","sourcePath":"components/core/AnimatedNumber.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"CipherText","sourcePath":"components/core/CipherText.jsx"},{"name":"Icon","sourcePath":"components/core/Icon.jsx"},{"name":"IconButton","sourcePath":"components/core/IconButton.jsx"},{"name":"KeyPoint","sourcePath":"components/core/KeyPoint.jsx"},{"name":"Logo","sourcePath":"components/core/Logo.jsx"},{"name":"Metric","sourcePath":"components/core/Metric.jsx"},{"name":"Quote","sourcePath":"components/core/Quote.jsx"},{"name":"Reveal","sourcePath":"components/core/Reveal.jsx"},{"name":"ScrollProgress","sourcePath":"components/core/ScrollProgress.jsx"},{"name":"Section","sourcePath":"components/core/Section.jsx"},{"name":"StatusBadge","sourcePath":"components/core/StatusBadge.jsx"},{"name":"ThemeToggle","sourcePath":"components/core/ThemeToggle.jsx"},{"name":"IconlyGlassArrow","sourcePath":"components/illustrations/IconlyGlassArrow.jsx"},{"name":"IconlyGlassBag","sourcePath":"components/illustrations/IconlyGlassBag.jsx"},{"name":"IconlyGlassCalendar","sourcePath":"components/illustrations/IconlyGlassCalendar.jsx"},{"name":"IconlyGlassCamera","sourcePath":"components/illustrations/IconlyGlassCamera.jsx"},{"name":"IconlyGlassDiscount","sourcePath":"components/illustrations/IconlyGlassDiscount.jsx"},{"name":"IconlyGlassFilter","sourcePath":"components/illustrations/IconlyGlassFilter.jsx"},{"name":"IconlyGlassFolder","sourcePath":"components/illustrations/IconlyGlassFolder.jsx"},{"name":"IconlyGlassGame","sourcePath":"components/illustrations/IconlyGlassGame.jsx"},{"name":"IconlyGlassInfo","sourcePath":"components/illustrations/IconlyGlassInfo.jsx"},{"name":"IconlyGlassMenu","sourcePath":"components/illustrations/IconlyGlassMenu.jsx"},{"name":"IconlyGlassPaper","sourcePath":"components/illustrations/IconlyGlassPaper.jsx"},{"name":"IconlyGlassProfile","sourcePath":"components/illustrations/IconlyGlassProfile.jsx"}],"sourceHashes":{"components/blocks/ClientLogos.jsx":"ef4e3f4da524","components/blocks/CookieConsent.jsx":"26e78977af66","components/blocks/Faq.jsx":"f5761d6c88a9","components/blocks/FinalCta.jsx":"4f71a3a9a62d","components/blocks/GradientBackdrop.jsx":"13b0174289d6","components/blocks/Hero.jsx":"6ea782dfaf68","components/blocks/HeroShapes.jsx":"c5ea8651f79d","components/blocks/SiteFooter.jsx":"4f72983f5f9e","components/blocks/SiteHeader.jsx":"f20a098fc392","components/blocks/Timeline.jsx":"be890649fff5","components/cards/CaseCard.jsx":"1fadbe5d0cc1","components/cards/SolutionCard.jsx":"5c2a37cb4f30","components/core/Accent.jsx":"e970ad39f4c6","components/core/AnimatedNumber.jsx":"5d3b82729aaf","components/core/Badge.jsx":"53a1c83c8d74","components/core/Button.jsx":"d54ec208dfa1","components/core/CipherText.jsx":"d34a6656a259","components/core/Icon.jsx":"aa735f558574","components/core/IconButton.jsx":"a21083dd42a1","components/core/KeyPoint.jsx":"34af975e2f54","components/core/Logo.jsx":"d86dd2b89879","components/core/Metric.jsx":"e8911ab5515d","components/core/Quote.jsx":"a996e939568a","components/core/Reveal.jsx":"b7c039e7d51c","components/core/ScrollProgress.jsx":"15fa61d3eda1","components/core/Section.jsx":"0cf2a7b082bc","components/core/StatusBadge.jsx":"344b4d762461","components/core/ThemeToggle.jsx":"74c23d8a2c16","components/illustrations/IconlyGlassArrow.jsx":"600dbec4d6d7","components/illustrations/IconlyGlassBag.jsx":"b30e3e080a42","components/illustrations/IconlyGlassCalendar.jsx":"3f8e05897fe5","components/illustrations/IconlyGlassCamera.jsx":"3b2d8415e0eb","components/illustrations/IconlyGlassDiscount.jsx":"830aab614e34","components/illustrations/IconlyGlassFilter.jsx":"26d9edcdac54","components/illustrations/IconlyGlassFolder.jsx":"1c70e9b8c34b","components/illustrations/IconlyGlassGame.jsx":"68dcc29cbda1","components/illustrations/IconlyGlassInfo.jsx":"32e6bc7a9eee","components/illustrations/IconlyGlassMenu.jsx":"a8e47b12950d","components/illustrations/IconlyGlassPaper.jsx":"996c3ec23cc6","components/illustrations/IconlyGlassProfile.jsx":"69215ee68555","ui_kits/site/automation-screen.jsx":"9e8420f83e68","ui_kits/site/contact-screen.jsx":"0e6ddefd3e73","ui_kits/site/employee-screen.jsx":"ba2ce744bb66","ui_kits/site/home-screen.jsx":"2cae96ac2cdd","ui_kits/site/privacy-screen.jsx":"b88ccc881435","ui_kits/site/site-footer.jsx":"2a91d5c5eaf0","ui_kits/site/site-header.jsx":"8670ed7691a0"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":4,"namespace":"DesignSystem_03bc73","components":[{"name":"ClientLogos","sourcePath":"components/blocks/ClientLogos.jsx"},{"name":"CookieConsent","sourcePath":"components/blocks/CookieConsent.jsx"},{"name":"Faq","sourcePath":"components/blocks/Faq.jsx"},{"name":"FinalCta","sourcePath":"components/blocks/FinalCta.jsx"},{"name":"GradientBackdrop","sourcePath":"components/blocks/GradientBackdrop.jsx"},{"name":"Hero","sourcePath":"components/blocks/Hero.jsx"},{"name":"HeroShapes","sourcePath":"components/blocks/HeroShapes.jsx"},{"name":"SiteFooter","sourcePath":"components/blocks/SiteFooter.jsx"},{"name":"SiteHeader","sourcePath":"components/blocks/SiteHeader.jsx"},{"name":"SolutionHero","sourcePath":"components/blocks/SolutionHero.jsx"},{"name":"SolutionPipeline","sourcePath":"components/blocks/SolutionPipeline.jsx"},{"name":"SolutionStack","sourcePath":"components/blocks/SolutionStack.jsx"},{"name":"Timeline","sourcePath":"components/blocks/Timeline.jsx"},{"name":"CaseCard","sourcePath":"components/cards/CaseCard.jsx"},{"name":"SolutionCard","sourcePath":"components/cards/SolutionCard.jsx"},{"name":"Accent","sourcePath":"components/core/Accent.jsx"},{"name":"AnimatedNumber","sourcePath":"components/core/AnimatedNumber.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"CipherText","sourcePath":"components/core/CipherText.jsx"},{"name":"Icon","sourcePath":"components/core/Icon.jsx"},{"name":"IconButton","sourcePath":"components/core/IconButton.jsx"},{"name":"KeyPoint","sourcePath":"components/core/KeyPoint.jsx"},{"name":"Logo","sourcePath":"components/core/Logo.jsx"},{"name":"Metric","sourcePath":"components/core/Metric.jsx"},{"name":"Quote","sourcePath":"components/core/Quote.jsx"},{"name":"Reveal","sourcePath":"components/core/Reveal.jsx"},{"name":"ScrollProgress","sourcePath":"components/core/ScrollProgress.jsx"},{"name":"Section","sourcePath":"components/core/Section.jsx"},{"name":"StatusBadge","sourcePath":"components/core/StatusBadge.jsx"},{"name":"ThemeToggle","sourcePath":"components/core/ThemeToggle.jsx"},{"name":"IconlyGlassArrow","sourcePath":"components/illustrations/IconlyGlassArrow.jsx"},{"name":"IconlyGlassBag","sourcePath":"components/illustrations/IconlyGlassBag.jsx"},{"name":"IconlyGlassCalendar","sourcePath":"components/illustrations/IconlyGlassCalendar.jsx"},{"name":"IconlyGlassCamera","sourcePath":"components/illustrations/IconlyGlassCamera.jsx"},{"name":"IconlyGlassDiscount","sourcePath":"components/illustrations/IconlyGlassDiscount.jsx"},{"name":"IconlyGlassFilter","sourcePath":"components/illustrations/IconlyGlassFilter.jsx"},{"name":"IconlyGlassFolder","sourcePath":"components/illustrations/IconlyGlassFolder.jsx"},{"name":"IconlyGlassGame","sourcePath":"components/illustrations/IconlyGlassGame.jsx"},{"name":"IconlyGlassInfo","sourcePath":"components/illustrations/IconlyGlassInfo.jsx"},{"name":"IconlyGlassMenu","sourcePath":"components/illustrations/IconlyGlassMenu.jsx"},{"name":"IconlyGlassPaper","sourcePath":"components/illustrations/IconlyGlassPaper.jsx"},{"name":"IconlyGlassProfile","sourcePath":"components/illustrations/IconlyGlassProfile.jsx"}],"sourceHashes":{"components/blocks/ClientLogos.jsx":"ef4e3f4da524","components/blocks/CookieConsent.jsx":"26e78977af66","components/blocks/Faq.jsx":"f5761d6c88a9","components/blocks/FinalCta.jsx":"4f71a3a9a62d","components/blocks/GradientBackdrop.jsx":"13b0174289d6","components/blocks/Hero.jsx":"6ea782dfaf68","components/blocks/HeroShapes.jsx":"c5ea8651f79d","components/blocks/SiteFooter.jsx":"4f72983f5f9e","components/blocks/SiteHeader.jsx":"f20a098fc392","components/blocks/SolutionHero.jsx":"1ea275eb0402","components/blocks/SolutionPipeline.jsx":"1a907293bbf9","components/blocks/SolutionStack.jsx":"4da2a00698d8","components/blocks/Timeline.jsx":"be890649fff5","components/cards/CaseCard.jsx":"1fadbe5d0cc1","components/cards/SolutionCard.jsx":"5c2a37cb4f30","components/core/Accent.jsx":"e970ad39f4c6","components/core/AnimatedNumber.jsx":"5d3b82729aaf","components/core/Badge.jsx":"53a1c83c8d74","components/core/Button.jsx":"d54ec208dfa1","components/core/CipherText.jsx":"d34a6656a259","components/core/Icon.jsx":"aa735f558574","components/core/IconButton.jsx":"a21083dd42a1","components/core/KeyPoint.jsx":"34af975e2f54","components/core/Logo.jsx":"d86dd2b89879","components/core/Metric.jsx":"e8911ab5515d","components/core/Quote.jsx":"a996e939568a","components/core/Reveal.jsx":"b7c039e7d51c","components/core/ScrollProgress.jsx":"15fa61d3eda1","components/core/Section.jsx":"0cf2a7b082bc","components/core/StatusBadge.jsx":"344b4d762461","components/core/ThemeToggle.jsx":"74c23d8a2c16","components/illustrations/IconlyGlassArrow.jsx":"600dbec4d6d7","components/illustrations/IconlyGlassBag.jsx":"b30e3e080a42","components/illustrations/IconlyGlassCalendar.jsx":"3f8e05897fe5","components/illustrations/IconlyGlassCamera.jsx":"3b2d8415e0eb","components/illustrations/IconlyGlassDiscount.jsx":"830aab614e34","components/illustrations/IconlyGlassFilter.jsx":"26d9edcdac54","components/illustrations/IconlyGlassFolder.jsx":"1c70e9b8c34b","components/illustrations/IconlyGlassGame.jsx":"68dcc29cbda1","components/illustrations/IconlyGlassInfo.jsx":"32e6bc7a9eee","components/illustrations/IconlyGlassMenu.jsx":"a8e47b12950d","components/illustrations/IconlyGlassPaper.jsx":"996c3ec23cc6","components/illustrations/IconlyGlassProfile.jsx":"69215ee68555","ui_kits/site/automation-screen.jsx":"9e8420f83e68","ui_kits/site/contact-screen.jsx":"0e6ddefd3e73","ui_kits/site/employee-screen.jsx":"ba2ce744bb66","ui_kits/site/home-screen.jsx":"2cae96ac2cdd","ui_kits/site/privacy-screen.jsx":"b88ccc881435","ui_kits/site/site-footer.jsx":"2a91d5c5eaf0","ui_kits/site/site-header.jsx":"8670ed7691a0"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -2048,6 +2048,526 @@ function StatusBadge({
 }
 Object.assign(__ds_scope, { StatusBadge });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/core/StatusBadge.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/SolutionHero.jsx
+try { (() => {
+/**
+ * Первый экран страницы решения: обещание слева, цифры справа.
+ *
+ * Подложка — приём GradientBackdrop: светлый фиолетовый градиент и два
+ * размытых круга по 500px. Карточка эффекта стеклянная и лежит НА подложке, а
+ * не в ней: со сплошной заливкой фиолетовый фон читается как её собственный
+ * цвет, и карточка перестаёт быть отдельным слоем.
+ *
+ * Заголовок карточки — единственное, что отличает измеренный результат от
+ * ожидаемого: «Результат» ставится там, где цифра снята у клиента,
+ * «Ожидаемый эффект» — там, где она обобщённая. Пояснительные строки под
+ * цифрами сняты решением владельца от 02.09.2026 (§8 позиционирования), и
+ * заводить их заново не нужно; вместо них — gains, что бизнес получает.
+ */
+function SolutionHero({
+  addressee,
+  title,
+  lead,
+  ctaLabel,
+  ctaHref = '#',
+  ctaNote,
+  effectLabel = 'Ожидаемый эффект',
+  metrics = [],
+  gains = [],
+  style
+}) {
+  return /*#__PURE__*/React.createElement("section", {
+    style: Object.assign({
+      position: 'relative',
+      overflow: 'hidden',
+      background: 'linear-gradient(180deg, var(--violet-50) 0%, var(--surface-page) 100%)'
+    }, style)
+  }, /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      top: '-35%',
+      left: '-10%',
+      width: 500,
+      height: 500,
+      borderRadius: 'var(--radius-pill)',
+      background: 'var(--violet-400)',
+      opacity: 0.4,
+      filter: 'blur(100px)',
+      pointerEvents: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      top: '-25%',
+      right: '-8%',
+      width: 500,
+      height: 500,
+      borderRadius: 'var(--radius-pill)',
+      background: 'var(--fuchsia-500)',
+      opacity: 0.25,
+      filter: 'blur(100px)',
+      pointerEvents: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative',
+      maxWidth: 'var(--container-text)',
+      margin: '0 auto',
+      padding: 'var(--space-8) var(--gutter-desktop) var(--space-20)',
+      display: 'grid',
+      gridTemplateColumns: 'repeat(12, minmax(0, 1fr))',
+      gap: 'var(--space-12)',
+      alignItems: 'start'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: 'span 7',
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'flex-start',
+      gap: 'var(--space-6)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'inline-flex',
+      padding: '6px 12px',
+      borderRadius: 'var(--radius-sm)',
+      background: 'var(--accent)',
+      color: 'var(--text-on-accent)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-extrabold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-widest)',
+      boxShadow: 'var(--shadow-button)'
+    }
+  }, addressee), /*#__PURE__*/React.createElement("h1", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--type-h1-size)',
+      fontWeight: 'var(--type-h1-weight)',
+      lineHeight: 'var(--type-h1-leading)',
+      letterSpacing: 'var(--type-h1-tracking)',
+      color: 'var(--text-primary)'
+    }
+  }, title), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-xl)',
+      lineHeight: 'var(--leading-relaxed)',
+      color: 'var(--text-secondary)'
+    }
+  }, lead), /*#__PURE__*/React.createElement("a", {
+    href: ctaHref,
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      padding: '16px 32px',
+      borderRadius: 'var(--radius-md)',
+      background: 'var(--accent)',
+      color: 'var(--text-on-accent)',
+      fontSize: 'var(--text-sm)',
+      fontWeight: 'var(--weight-bold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-wide)',
+      textDecoration: 'none',
+      boxShadow: 'var(--shadow-button)'
+    }
+  }, ctaLabel, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "arrow-right",
+    size: 16
+  })), ctaNote ? /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-sm)',
+      color: 'var(--text-muted)'
+    }
+  }, ctaNote) : null), /*#__PURE__*/React.createElement("div", {
+    style: {
+      gridColumn: 'span 5',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-6)',
+      padding: 'var(--space-8)',
+      borderRadius: 'var(--radius-lg)',
+      border: '1px solid rgba(255, 255, 255, 0.7)',
+      background: 'rgba(255, 255, 255, 0.8)',
+      backdropFilter: 'blur(12px)',
+      boxShadow: 'var(--shadow-hero)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      alignSelf: 'flex-start',
+      display: 'inline-flex',
+      padding: '6px 14px',
+      borderRadius: 'var(--radius-pill)',
+      border: '1px solid var(--border-accent-soft)',
+      background: 'var(--surface-accent-soft)',
+      color: 'var(--text-accent)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-bold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-widest)'
+    }
+  }, effectLabel), metrics.length > 0 ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-5)'
+    }
+  }, metrics.slice(0, 2).map((m, i) => /*#__PURE__*/React.createElement("div", {
+    key: m.label,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-1)'
+    }
+  }, /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'baseline',
+      gap: 'var(--space-2)'
+    }
+  }, m.before ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontSize: 'var(--text-xl)',
+      fontWeight: 'var(--weight-bold)',
+      color: 'var(--text-faint)',
+      textDecoration: 'line-through'
+    }
+  }, m.before) : null, m.before ? /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "arrow-right",
+    size: 16,
+    color: "var(--text-faint)"
+  }) : null, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: 'var(--font-numeric)',
+      fontSize: i === 0 ? 'var(--text-4xl)' : 'var(--text-3xl)',
+      fontWeight: 'var(--type-metric-weight-numeric)',
+      letterSpacing: 'var(--tracking-tight)',
+      color: 'var(--text-accent)'
+    }
+  }, m.after)), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-sm)',
+      lineHeight: 'var(--leading-relaxed)',
+      color: 'var(--text-secondary)'
+    }
+  }, m.label)))) : null, gains.length > 0 ? /*#__PURE__*/React.createElement(React.Fragment, null, metrics.length > 0 ? /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 1,
+      background: 'var(--border-accent-soft)'
+    }
+  }) : null, /*#__PURE__*/React.createElement("ul", {
+    style: {
+      margin: 0,
+      padding: 0,
+      listStyle: 'none',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '10px'
+    }
+  }, gains.map(g => /*#__PURE__*/React.createElement("li", {
+    key: g,
+    style: {
+      display: 'flex',
+      gap: '10px',
+      fontSize: 'var(--text-sm)',
+      lineHeight: 'var(--leading-relaxed)',
+      color: 'var(--text-secondary)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    "aria-hidden": "true",
+    style: {
+      flexShrink: 0,
+      width: 6,
+      height: 6,
+      borderRadius: 'var(--radius-pill)',
+      background: 'var(--accent)',
+      marginTop: 9
+    }
+  }), /*#__PURE__*/React.createElement("span", null, g))))) : null)));
+}
+Object.assign(__ds_scope, { SolutionHero });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/SolutionHero.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/SolutionPipeline.jsx
+try { (() => {
+/**
+ * Механика решения на тёмной полосе: что происходит сейчас и во что это
+ * превращается.
+ *
+ * Тёмная секция — приём системы, тот же, что у блока команды и финального CTA:
+ * она звучит громче светлой. На странице решения полоса отделяет механику от
+ * текста вокруг, поэтому страница читается тремя зонами, а не десятью
+ * одинаковыми секциями подряд.
+ *
+ * Каскад повторяет главную: полоса едет слева направо за 1150 мс, узлы
+ * проявляются один за другим — первый на 160 мс, каждый следующий через 290 мс.
+ * Значения взяты у ProcessTimeline и Timeline, а не подобраны заново.
+ *
+ * Узлов ровно четыре. Пять не помещаются в ряд на 1280, три не показывают
+ * движения. Последний узел подсвечен: он результат, а не ещё один шаг.
+ */
+function SolutionPipeline({
+  nowLabel = 'Сейчас',
+  now,
+  howLabel = 'Как работает система',
+  nodes = [],
+  style
+}) {
+  const [shown, setShown] = React.useState(0);
+  const [track, setTrack] = React.useState(false);
+  React.useEffect(() => {
+    const reduce = typeof window !== 'undefined' && window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduce) {
+      setShown(nodes.length);
+      setTrack(true);
+      return;
+    }
+    const t0 = setTimeout(() => setTrack(true), 30);
+    const timers = nodes.map((_, i) => setTimeout(() => setShown(n => Math.max(n, i + 1)), 160 + i * 290));
+    return () => {
+      clearTimeout(t0);
+      timers.forEach(clearTimeout);
+    };
+  }, [nodes.length]);
+  return /*#__PURE__*/React.createElement("section", {
+    style: Object.assign({
+      position: 'relative',
+      overflow: 'hidden',
+      background: 'var(--surface-cta)',
+      padding: 'var(--space-16) var(--gutter-desktop)'
+    }, style)
+  }, /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      position: 'absolute',
+      top: '-45%',
+      left: '35%',
+      width: 500,
+      height: 500,
+      borderRadius: 'var(--radius-pill)',
+      background: 'var(--accent)',
+      opacity: 0.3,
+      filter: 'blur(100px)',
+      pointerEvents: 'none'
+    }
+  }), /*#__PURE__*/React.createElement("div", {
+    style: {
+      position: 'relative',
+      maxWidth: 'var(--container-wide)',
+      margin: '0 auto',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-8)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'flex-start',
+      gap: 'var(--space-5)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      flexShrink: 0,
+      display: 'inline-flex',
+      padding: '6px 14px',
+      borderRadius: 'var(--radius-pill)',
+      border: '1px solid var(--border-strong)',
+      background: 'var(--surface-glass)',
+      color: 'var(--text-on-inverse-secondary)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-bold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-widest)'
+    }
+  }, nowLabel), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-lg)',
+      lineHeight: 'var(--leading-relaxed)',
+      color: 'var(--text-on-inverse-secondary)'
+    }
+  }, now)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: 1,
+      background: 'var(--border-strong)'
+    }
+  }), /*#__PURE__*/React.createElement("span", {
+    style: {
+      alignSelf: 'flex-start',
+      display: 'inline-flex',
+      padding: '6px 14px',
+      borderRadius: 'var(--radius-pill)',
+      border: '1px solid var(--border-accent)',
+      background: 'var(--surface-glass)',
+      color: 'var(--accent-quiet)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-bold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-widest)'
+    }
+  }, howLabel), /*#__PURE__*/React.createElement("div", {
+    "aria-hidden": "true",
+    style: {
+      height: 2,
+      borderRadius: 'var(--radius-pill)',
+      background: 'var(--border-strong)'
+    }
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      height: '100%',
+      borderRadius: 'var(--radius-pill)',
+      background: 'var(--accent-quiet)',
+      transformOrigin: 'left center',
+      transform: track ? 'scaleX(1)' : 'scaleX(0)',
+      transition: 'transform 1150ms ease-out'
+    }
+  })), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'stretch',
+      gap: 'var(--space-4)'
+    }
+  }, nodes.map((node, i) => [/*#__PURE__*/React.createElement("div", {
+    key: node.title,
+    style: {
+      flex: '1 1 0',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '14px',
+      padding: 'var(--space-6)',
+      borderRadius: 'var(--radius-lg)',
+      background: 'var(--surface-glass)',
+      border: '1px solid ' + (i === nodes.length - 1 ? 'var(--border-accent)' : 'var(--border-strong)'),
+      opacity: shown > i ? 1 : 0,
+      transform: shown > i ? 'none' : 'translateY(16px)',
+      transition: 'opacity var(--duration-reveal) ease-out, transform var(--duration-reveal) ease-out'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: node.icon,
+    size: 26,
+    color: "var(--accent-quiet)"
+  }), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-xl)',
+      fontWeight: 'var(--weight-bold)',
+      lineHeight: 'var(--leading-snug)',
+      color: i === nodes.length - 1 ? 'var(--accent-quiet)' : 'var(--text-on-inverse)'
+    }
+  }, node.title), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      lineHeight: 'var(--leading-relaxed)',
+      color: 'var(--text-on-inverse-secondary)'
+    }
+  }, node.text)), i < nodes.length - 1 ? /*#__PURE__*/React.createElement("span", {
+    key: node.title + '-arrow',
+    "aria-hidden": "true",
+    style: {
+      flexShrink: 0,
+      display: 'flex',
+      alignItems: 'center',
+      color: 'var(--text-on-inverse-faint)',
+      opacity: shown > i ? 1 : 0,
+      transition: 'opacity var(--duration-reveal) ease-out'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "arrow-right",
+    size: 22,
+    strokeWidth: 2.5
+  })) : null]))));
+}
+Object.assign(__ds_scope, { SolutionPipeline });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/SolutionPipeline.jsx", error: String((e && e.message) || e) }); }
+
+// components/blocks/SolutionStack.jsx
+try { (() => {
+/**
+ * «Что здесь задействовано» — три тезиса вместо ленты тегов.
+ *
+ * Раньше в этом месте страницы решения стоял список компетенций плашками:
+ * «computer vision», «object detection», «интеграция с WMS». Решение владельца
+ * от 02.09.2026 — англицизмы убрать, а сами компетенции подать заголовками:
+ * это главные тезисы блока, а не подпись мелким шрифтом.
+ *
+ * Заливка фиолетовая, а не серая. На белом поле страницы серая карточка
+ * читается как выключенная, а прямо над блоком стоит тёмная полоса — после неё
+ * нужен цвет, иначе низ страницы проваливается.
+ */
+function SolutionStack({
+  heading = 'Что здесь задействовано',
+  items = [],
+  style
+}) {
+  return /*#__PURE__*/React.createElement("div", {
+    style: Object.assign({
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-6)'
+    }, style)
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      alignSelf: 'flex-start',
+      display: 'inline-flex',
+      padding: '6px 14px',
+      borderRadius: 'var(--radius-pill)',
+      border: '1px solid var(--border-accent-soft)',
+      background: 'var(--surface-accent-soft)',
+      color: 'var(--text-accent)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-bold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-widest)'
+    }
+  }, heading), /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+      gap: 'var(--space-5)'
+    }
+  }, items.map(item => /*#__PURE__*/React.createElement("div", {
+    key: item.title,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'var(--space-3)',
+      padding: '28px',
+      borderRadius: 'var(--radius-lg)',
+      background: 'var(--surface-accent-soft)',
+      border: '1px solid var(--border-accent-soft)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: item.icon,
+    size: 26,
+    color: "var(--text-accent)"
+  }), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-2xl)',
+      fontWeight: 'var(--weight-bold)',
+      lineHeight: 'var(--leading-snug)',
+      color: 'var(--text-primary)'
+    }
+  }, item.title), /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-lg)',
+      lineHeight: 'var(--leading-relaxed)',
+      color: 'var(--text-secondary)'
+    }
+  }, item.text)))));
+}
+Object.assign(__ds_scope, { SolutionStack });
+})(); } catch (e) { __ds_ns.__errors.push({ path: "components/blocks/SolutionStack.jsx", error: String((e && e.message) || e) }); }
 
 // components/blocks/Timeline.jsx
 try { (() => {
@@ -6299,6 +6819,12 @@ __ds_ns.HeroShapes = __ds_scope.HeroShapes;
 __ds_ns.SiteFooter = __ds_scope.SiteFooter;
 
 __ds_ns.SiteHeader = __ds_scope.SiteHeader;
+
+__ds_ns.SolutionHero = __ds_scope.SolutionHero;
+
+__ds_ns.SolutionPipeline = __ds_scope.SolutionPipeline;
+
+__ds_ns.SolutionStack = __ds_scope.SolutionStack;
 
 __ds_ns.Timeline = __ds_scope.Timeline;
 
