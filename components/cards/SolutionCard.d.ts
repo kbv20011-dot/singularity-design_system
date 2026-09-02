@@ -1,13 +1,36 @@
+export interface SolutionCardMetric {
+  /** Что было: «4 часа». Необязательно — метрика бывает и одним числом. */
+  before?: string;
+  /** Что стало: «15 минут». */
+  after: string;
+  /** Что измеряли: «на подготовку коммерческого предложения». */
+  label: string;
+}
+
 export interface SolutionCardProps {
+  /** Плашка адресата: «Отдел продаж», «Бухгалтерия», «Склад». Одно-два слова —
+   *  человек ищет в каталоге своё подразделение, а не формулировку задачи.
+   *  Главный якорь карточки, без него она снова станет сплошным текстом. */
+  addressee: string;
   title: string;
   /** 1–2 предложения. */
   short: string;
-  /** Строка «Кому?»: «Отделам продаж, где карточки заполняются по памяти». */
-  audience: string;
-  audienceLabel?: string;
-  status?: 'delivered' | 'prototype' | 'concept';
-  statusLabel?: string;
-  statusHint?: string;
+  /** Куски `short`, которые набираются жирным. Должны встречаться в тексте
+   *  дословно — иначе выделение молча не сработает. */
+  accent?: string[];
+  /** Одна метрика, первая и главная; остальные — на детальной странице. */
+  metric?: SolutionCardMetric;
+  /** Строка вместо метрики там, где метрики нет. Объясняет отсутствие цифры,
+   *  а не расставляет решения по шкале готовности. */
+  metricNote?: string;
+  /** Имена клиентов, у которых решение работает: ['Верба', 'More House'].
+   *  Проверяемый факт вместо плашки статуса. */
+  runningAt?: string[];
+  runningAtLabel?: string;
+  moreLabel?: string;
+  /** Ссылка на детальную страницу; без неё карточка не кликабельна и строки
+   *  «Подробнее» на ней нет. */
+  href?: string;
   style?: React.CSSProperties;
 }
 export function SolutionCard(props: SolutionCardProps): JSX.Element;

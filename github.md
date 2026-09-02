@@ -1,9 +1,30 @@
-repo: kbv20011-dot/singular
-branch: master
+repo: kbv20011-dot/singularity-site
+branch: dev — работа идёт здесь, master отстаёт
 
 ## Last sync
 
-date: 2026-09-01T18:00:00Z
+date: 2026-09-02T00:00:00Z
+
+### Синхронизация 02.09.2026 — карточки каталога
+
+Коммит `e15da6d` «Карточки каталога: плашка адресата и метрика вместо строки „Кому“».
+
+- **`SolutionCard` перебран по коду.** Плашка адресата вместо строки «Кому», одна
+  метрика внизу (`metricNote` там, где цифры нет), жирные акценты в описании по
+  дословному совпадению, имена клиентов вместо статуса. Props сменились целиком:
+  `audience`, `audienceLabel`, `status`, `statusLabel`, `statusHint` больше нет —
+  проверка пропсов в `_adherence.oxlintrc.json` обновлена вместе с ними
+- **Правила карточки решения записаны в `readme.md`** отдельным разделом: что на
+  ней обязательно и почему статусов на ней нет
+- **Экран `ui_kits/site/automation-screen.jsx` подтянут** под новую карточку: три
+  решения с реальными данными из `data/solution-details.ts`, интро каталога
+  разбито на две строки — «о чём каталог» и «как им пользоваться»
+- **Два расхождения с прод-кодом оставлены сознательно.** Трекинг плашки адресата
+  в проде 0.13em, в системе — токен `--tracking-widest` (0.1em); фиолетовый оттенок
+  тени плашки при наведении (`shadow-violet-500/30`) токеном не описан и сведён
+  к `--shadow-lg`
+- **Не переносилось:** перестройка `CatalogRail` (ползунок каталога — часть
+  страницы, а не компонент системы) и правки текста на `/automation` вне карточек
 
 ### Синхронизация 01.09.2026
 
@@ -36,7 +57,7 @@ date: 2026-09-01T18:00:00Z
 | ui_kits/site/automation.html · Автоматизация | pages/AutomationPage.tsx, data/solutions.ts, data/cases.ts, data/team.ts |
 | ui_kits/site/privacy.html · Политика | pages/PrivacyPolicy.tsx |
 | components/core/* | components/Button (инлайн в Layout/Hero/FinalCta), components/Accent.tsx, components/KeyPoint.tsx, components/AnimatedNumber.tsx, components/CipherText.tsx, components/Section.tsx, components/Reveal.tsx, contexts/ThemeContext.tsx |
-| components/cards/* | components/CaseCard.tsx, components/SolutionCard.tsx, data/solutions.ts |
+| components/cards/* | components/CaseCard.tsx, components/SolutionCard.tsx, data/solutions.ts (поля `addressee` и `accent`), data/solution-details.ts (метрики) |
 | components/blocks/* | components/Hero.tsx, components/HeroShapes.tsx, components/Layout.tsx (шапка и подвал), components/ClientLogos.tsx, components/Faq.tsx, components/FinalCta.tsx, components/CookieConsent.tsx |
 | ui_kits/site/index.html · Контакты (#contact) | pages/ContactForm.tsx, data/contacts.ts |
 | ui_kits/site/index.html · Сотрудник (#team/:slug) | pages/EmployeePage.tsx, data/team.ts |
@@ -46,5 +67,8 @@ date: 2026-09-01T18:00:00Z
 
 ## Sync history
 
+- 2026-09-02T00:00:00Z — карточка решения по коммиту `e15da6d`: плашка адресата, метрика, акценты; статусы с карточки сняты.
+- 2026-09-01T18:00:00Z — токены контраста пересчитаны со стеклом, GEO убрано, девять компонентов в инвентарь, ярусы заголовков, титул колоды.
+- 2026-08-15T09:40:00Z — экраны `/automation` и `/privacy` в UI-кит, шапка/подвал/переключатель темы как компоненты, три шаблона.
 - 2026-08-14T20:05:00Z — токены, 20 компонентов, изображения, главная/контакты/сотрудник в UI-ките, `interactions.css` и `responsive.css`, аудит контраста.
 - 2026-08-14T11:31:40Z — первое чтение репозитория: классификация Figma-фреймов, таблица конфликтов, вопросы пользователю.

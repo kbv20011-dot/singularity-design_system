@@ -1,4 +1,4 @@
-/* @ds-bundle: {"format":4,"namespace":"DesignSystem_03bc73","components":[{"name":"ClientLogos","sourcePath":"components/blocks/ClientLogos.jsx"},{"name":"CookieConsent","sourcePath":"components/blocks/CookieConsent.jsx"},{"name":"Faq","sourcePath":"components/blocks/Faq.jsx"},{"name":"FinalCta","sourcePath":"components/blocks/FinalCta.jsx"},{"name":"GradientBackdrop","sourcePath":"components/blocks/GradientBackdrop.jsx"},{"name":"Hero","sourcePath":"components/blocks/Hero.jsx"},{"name":"HeroShapes","sourcePath":"components/blocks/HeroShapes.jsx"},{"name":"SiteFooter","sourcePath":"components/blocks/SiteFooter.jsx"},{"name":"SiteHeader","sourcePath":"components/blocks/SiteHeader.jsx"},{"name":"Timeline","sourcePath":"components/blocks/Timeline.jsx"},{"name":"CaseCard","sourcePath":"components/cards/CaseCard.jsx"},{"name":"SolutionCard","sourcePath":"components/cards/SolutionCard.jsx"},{"name":"Accent","sourcePath":"components/core/Accent.jsx"},{"name":"AnimatedNumber","sourcePath":"components/core/AnimatedNumber.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"CipherText","sourcePath":"components/core/CipherText.jsx"},{"name":"Icon","sourcePath":"components/core/Icon.jsx"},{"name":"IconButton","sourcePath":"components/core/IconButton.jsx"},{"name":"KeyPoint","sourcePath":"components/core/KeyPoint.jsx"},{"name":"Logo","sourcePath":"components/core/Logo.jsx"},{"name":"Metric","sourcePath":"components/core/Metric.jsx"},{"name":"Quote","sourcePath":"components/core/Quote.jsx"},{"name":"Reveal","sourcePath":"components/core/Reveal.jsx"},{"name":"ScrollProgress","sourcePath":"components/core/ScrollProgress.jsx"},{"name":"Section","sourcePath":"components/core/Section.jsx"},{"name":"StatusBadge","sourcePath":"components/core/StatusBadge.jsx"},{"name":"ThemeToggle","sourcePath":"components/core/ThemeToggle.jsx"},{"name":"IconlyGlassArrow","sourcePath":"components/illustrations/IconlyGlassArrow.jsx"},{"name":"IconlyGlassBag","sourcePath":"components/illustrations/IconlyGlassBag.jsx"},{"name":"IconlyGlassCalendar","sourcePath":"components/illustrations/IconlyGlassCalendar.jsx"},{"name":"IconlyGlassCamera","sourcePath":"components/illustrations/IconlyGlassCamera.jsx"},{"name":"IconlyGlassDiscount","sourcePath":"components/illustrations/IconlyGlassDiscount.jsx"},{"name":"IconlyGlassFilter","sourcePath":"components/illustrations/IconlyGlassFilter.jsx"},{"name":"IconlyGlassFolder","sourcePath":"components/illustrations/IconlyGlassFolder.jsx"},{"name":"IconlyGlassGame","sourcePath":"components/illustrations/IconlyGlassGame.jsx"},{"name":"IconlyGlassInfo","sourcePath":"components/illustrations/IconlyGlassInfo.jsx"},{"name":"IconlyGlassMenu","sourcePath":"components/illustrations/IconlyGlassMenu.jsx"},{"name":"IconlyGlassPaper","sourcePath":"components/illustrations/IconlyGlassPaper.jsx"},{"name":"IconlyGlassProfile","sourcePath":"components/illustrations/IconlyGlassProfile.jsx"}],"sourceHashes":{"components/blocks/ClientLogos.jsx":"ef4e3f4da524","components/blocks/CookieConsent.jsx":"26e78977af66","components/blocks/Faq.jsx":"f5761d6c88a9","components/blocks/FinalCta.jsx":"4f71a3a9a62d","components/blocks/GradientBackdrop.jsx":"13b0174289d6","components/blocks/Hero.jsx":"6ea782dfaf68","components/blocks/HeroShapes.jsx":"c5ea8651f79d","components/blocks/SiteFooter.jsx":"4f72983f5f9e","components/blocks/SiteHeader.jsx":"f20a098fc392","components/blocks/Timeline.jsx":"be890649fff5","components/cards/CaseCard.jsx":"1fadbe5d0cc1","components/cards/SolutionCard.jsx":"3cf0141e26e0","components/core/Accent.jsx":"e970ad39f4c6","components/core/AnimatedNumber.jsx":"5d3b82729aaf","components/core/Badge.jsx":"53a1c83c8d74","components/core/Button.jsx":"d54ec208dfa1","components/core/CipherText.jsx":"d34a6656a259","components/core/Icon.jsx":"aa735f558574","components/core/IconButton.jsx":"a21083dd42a1","components/core/KeyPoint.jsx":"34af975e2f54","components/core/Logo.jsx":"d86dd2b89879","components/core/Metric.jsx":"e8911ab5515d","components/core/Quote.jsx":"a996e939568a","components/core/Reveal.jsx":"b7c039e7d51c","components/core/ScrollProgress.jsx":"15fa61d3eda1","components/core/Section.jsx":"0cf2a7b082bc","components/core/StatusBadge.jsx":"344b4d762461","components/core/ThemeToggle.jsx":"74c23d8a2c16","components/illustrations/IconlyGlassArrow.jsx":"600dbec4d6d7","components/illustrations/IconlyGlassBag.jsx":"b30e3e080a42","components/illustrations/IconlyGlassCalendar.jsx":"3f8e05897fe5","components/illustrations/IconlyGlassCamera.jsx":"3b2d8415e0eb","components/illustrations/IconlyGlassDiscount.jsx":"830aab614e34","components/illustrations/IconlyGlassFilter.jsx":"26d9edcdac54","components/illustrations/IconlyGlassFolder.jsx":"1c70e9b8c34b","components/illustrations/IconlyGlassGame.jsx":"68dcc29cbda1","components/illustrations/IconlyGlassInfo.jsx":"32e6bc7a9eee","components/illustrations/IconlyGlassMenu.jsx":"a8e47b12950d","components/illustrations/IconlyGlassPaper.jsx":"996c3ec23cc6","components/illustrations/IconlyGlassProfile.jsx":"69215ee68555","ui_kits/site/automation-screen.jsx":"9556fa4fb52c","ui_kits/site/contact-screen.jsx":"0e6ddefd3e73","ui_kits/site/employee-screen.jsx":"ba2ce744bb66","ui_kits/site/home-screen.jsx":"2cae96ac2cdd","ui_kits/site/privacy-screen.jsx":"b88ccc881435","ui_kits/site/site-footer.jsx":"2a91d5c5eaf0","ui_kits/site/site-header.jsx":"8670ed7691a0"},"inlinedExternals":[],"unexposedExports":[]} */
+/* @ds-bundle: {"format":4,"namespace":"DesignSystem_03bc73","components":[{"name":"ClientLogos","sourcePath":"components/blocks/ClientLogos.jsx"},{"name":"CookieConsent","sourcePath":"components/blocks/CookieConsent.jsx"},{"name":"Faq","sourcePath":"components/blocks/Faq.jsx"},{"name":"FinalCta","sourcePath":"components/blocks/FinalCta.jsx"},{"name":"GradientBackdrop","sourcePath":"components/blocks/GradientBackdrop.jsx"},{"name":"Hero","sourcePath":"components/blocks/Hero.jsx"},{"name":"HeroShapes","sourcePath":"components/blocks/HeroShapes.jsx"},{"name":"SiteFooter","sourcePath":"components/blocks/SiteFooter.jsx"},{"name":"SiteHeader","sourcePath":"components/blocks/SiteHeader.jsx"},{"name":"Timeline","sourcePath":"components/blocks/Timeline.jsx"},{"name":"CaseCard","sourcePath":"components/cards/CaseCard.jsx"},{"name":"SolutionCard","sourcePath":"components/cards/SolutionCard.jsx"},{"name":"Accent","sourcePath":"components/core/Accent.jsx"},{"name":"AnimatedNumber","sourcePath":"components/core/AnimatedNumber.jsx"},{"name":"Badge","sourcePath":"components/core/Badge.jsx"},{"name":"Button","sourcePath":"components/core/Button.jsx"},{"name":"CipherText","sourcePath":"components/core/CipherText.jsx"},{"name":"Icon","sourcePath":"components/core/Icon.jsx"},{"name":"IconButton","sourcePath":"components/core/IconButton.jsx"},{"name":"KeyPoint","sourcePath":"components/core/KeyPoint.jsx"},{"name":"Logo","sourcePath":"components/core/Logo.jsx"},{"name":"Metric","sourcePath":"components/core/Metric.jsx"},{"name":"Quote","sourcePath":"components/core/Quote.jsx"},{"name":"Reveal","sourcePath":"components/core/Reveal.jsx"},{"name":"ScrollProgress","sourcePath":"components/core/ScrollProgress.jsx"},{"name":"Section","sourcePath":"components/core/Section.jsx"},{"name":"StatusBadge","sourcePath":"components/core/StatusBadge.jsx"},{"name":"ThemeToggle","sourcePath":"components/core/ThemeToggle.jsx"},{"name":"IconlyGlassArrow","sourcePath":"components/illustrations/IconlyGlassArrow.jsx"},{"name":"IconlyGlassBag","sourcePath":"components/illustrations/IconlyGlassBag.jsx"},{"name":"IconlyGlassCalendar","sourcePath":"components/illustrations/IconlyGlassCalendar.jsx"},{"name":"IconlyGlassCamera","sourcePath":"components/illustrations/IconlyGlassCamera.jsx"},{"name":"IconlyGlassDiscount","sourcePath":"components/illustrations/IconlyGlassDiscount.jsx"},{"name":"IconlyGlassFilter","sourcePath":"components/illustrations/IconlyGlassFilter.jsx"},{"name":"IconlyGlassFolder","sourcePath":"components/illustrations/IconlyGlassFolder.jsx"},{"name":"IconlyGlassGame","sourcePath":"components/illustrations/IconlyGlassGame.jsx"},{"name":"IconlyGlassInfo","sourcePath":"components/illustrations/IconlyGlassInfo.jsx"},{"name":"IconlyGlassMenu","sourcePath":"components/illustrations/IconlyGlassMenu.jsx"},{"name":"IconlyGlassPaper","sourcePath":"components/illustrations/IconlyGlassPaper.jsx"},{"name":"IconlyGlassProfile","sourcePath":"components/illustrations/IconlyGlassProfile.jsx"}],"sourceHashes":{"components/blocks/ClientLogos.jsx":"ef4e3f4da524","components/blocks/CookieConsent.jsx":"26e78977af66","components/blocks/Faq.jsx":"f5761d6c88a9","components/blocks/FinalCta.jsx":"4f71a3a9a62d","components/blocks/GradientBackdrop.jsx":"13b0174289d6","components/blocks/Hero.jsx":"6ea782dfaf68","components/blocks/HeroShapes.jsx":"c5ea8651f79d","components/blocks/SiteFooter.jsx":"4f72983f5f9e","components/blocks/SiteHeader.jsx":"f20a098fc392","components/blocks/Timeline.jsx":"be890649fff5","components/cards/CaseCard.jsx":"1fadbe5d0cc1","components/cards/SolutionCard.jsx":"5c2a37cb4f30","components/core/Accent.jsx":"e970ad39f4c6","components/core/AnimatedNumber.jsx":"5d3b82729aaf","components/core/Badge.jsx":"53a1c83c8d74","components/core/Button.jsx":"d54ec208dfa1","components/core/CipherText.jsx":"d34a6656a259","components/core/Icon.jsx":"aa735f558574","components/core/IconButton.jsx":"a21083dd42a1","components/core/KeyPoint.jsx":"34af975e2f54","components/core/Logo.jsx":"d86dd2b89879","components/core/Metric.jsx":"e8911ab5515d","components/core/Quote.jsx":"a996e939568a","components/core/Reveal.jsx":"b7c039e7d51c","components/core/ScrollProgress.jsx":"15fa61d3eda1","components/core/Section.jsx":"0cf2a7b082bc","components/core/StatusBadge.jsx":"344b4d762461","components/core/ThemeToggle.jsx":"74c23d8a2c16","components/illustrations/IconlyGlassArrow.jsx":"600dbec4d6d7","components/illustrations/IconlyGlassBag.jsx":"b30e3e080a42","components/illustrations/IconlyGlassCalendar.jsx":"3f8e05897fe5","components/illustrations/IconlyGlassCamera.jsx":"3b2d8415e0eb","components/illustrations/IconlyGlassDiscount.jsx":"830aab614e34","components/illustrations/IconlyGlassFilter.jsx":"26d9edcdac54","components/illustrations/IconlyGlassFolder.jsx":"1c70e9b8c34b","components/illustrations/IconlyGlassGame.jsx":"68dcc29cbda1","components/illustrations/IconlyGlassInfo.jsx":"32e6bc7a9eee","components/illustrations/IconlyGlassMenu.jsx":"a8e47b12950d","components/illustrations/IconlyGlassPaper.jsx":"996c3ec23cc6","components/illustrations/IconlyGlassProfile.jsx":"69215ee68555","ui_kits/site/automation-screen.jsx":"9e8420f83e68","ui_kits/site/contact-screen.jsx":"0e6ddefd3e73","ui_kits/site/employee-screen.jsx":"ba2ce744bb66","ui_kits/site/home-screen.jsx":"2cae96ac2cdd","ui_kits/site/privacy-screen.jsx":"b88ccc881435","ui_kits/site/site-footer.jsx":"2a91d5c5eaf0","ui_kits/site/site-header.jsx":"8670ed7691a0"},"inlinedExternals":[],"unexposedExports":[]} */
 
 (() => {
 
@@ -2170,43 +2170,113 @@ Object.assign(__ds_scope, { Timeline });
 
 // components/cards/SolutionCard.jsx
 try { (() => {
-/** Карточка решения из каталога автоматизации. Статус показывается всегда. */
+/** Выделяет в тексте куски из `accent`. Куски ищутся дословно: если формулировку
+ *  в `short` поправят, а `accent` забудут, выделение просто не сработает — текст
+ *  останется целым. Размен на простоту сознательный, альтернатива требует
+ *  разметки внутри строки и парсера к ней. */
+function highlight(text, terms) {
+  if (!terms || terms.length === 0) return text;
+  const escaped = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  return String(text).split(new RegExp('(' + escaped.join('|') + ')', 'g')).map((part, i) => terms.indexOf(part) >= 0 ? /*#__PURE__*/React.createElement("strong", {
+    key: i,
+    style: {
+      fontWeight: 'var(--weight-bold)',
+      color: 'var(--text-primary)'
+    }
+  }, part) : part);
+}
+
+/** Карточка решения из каталога автоматизации.
+ *
+ *  Плашек статуса на карточке нет — решение владельца. Из тринадцати решений
+ *  десять имели статус concept, и ряд одинаковых серых плашек «Можем собрать»
+ *  читался как «у нас этого нет», хотя задача каталога обратная. Positioning §8
+ *  этим не нарушен: он требует атрибуции цифр, а не статуса на карточке, и
+ *  оговорки к цифрам стоят на детальной странице.
+ *
+ *  Главное на карточке — плашка адресата: «Отдел продаж», «Бухгалтерия»,
+ *  «Склад». Тринадцать карточек не читают подряд, их сканируют, и человек ищет
+ *  в каталоге своё подразделение, а не формулировку задачи. Строка «Кому»
+ *  поэтому с карточки ушла: её роль взяла плашка, а сам текст работает на
+ *  детальной странице.
+ *
+ *  Метрика стоит внизу и подтверждает выбор, а не зазывает. Где метрики нет,
+ *  `metricNote` объясняет её отсутствие и не расставляет решения по шкале
+ *  готовности. Стрелка намеренно `arrow-right`, а не `arrow-up-right` как в
+ *  CaseCard: рядом на странице стоят обе карточки, и переход внутрь сайта
+ *  должен отличаться от ухода на сайт клиента. */
 function SolutionCard({
+  addressee,
   title,
   short,
-  audience,
-  audienceLabel = 'Кому?',
-  status = 'concept',
-  statusLabel,
-  statusHint,
+  accent,
+  metric,
+  metricNote = 'Проект в разработке',
+  runningAt,
+  runningAtLabel = 'Работает у',
+  moreLabel = 'Подробнее',
+  href,
   style
 }) {
   const [hover, setHover] = React.useState(false);
-  return /*#__PURE__*/React.createElement("div", {
+  const clients = runningAt || [];
+  const Tag = href ? 'a' : 'div';
+  return /*#__PURE__*/React.createElement(Tag, {
+    href: href || undefined,
     onMouseEnter: () => setHover(true),
     onMouseLeave: () => setHover(false),
     style: Object.assign({
       height: '100%',
       display: 'flex',
       flexDirection: 'column',
+      boxSizing: 'border-box',
+      textDecoration: 'none',
       background: 'var(--surface-raised)',
       borderRadius: 'var(--radius-lg)',
       padding: 'var(--card-pad)',
-      border: '1px solid var(--border-subtle)',
+      border: '1px solid ' + (hover && href ? 'var(--border-accent-soft)' : 'var(--border-subtle)'),
       boxShadow: hover ? 'var(--shadow-card-hover)' : 'var(--shadow-card)',
       transform: hover ? 'translateY(var(--lift))' : 'none',
-      transition: 'box-shadow var(--duration-base), transform var(--duration-base)'
+      transition: 'box-shadow var(--duration-base), transform var(--duration-base), border-color var(--duration-base)'
     }, style)
-  }, /*#__PURE__*/React.createElement(__ds_scope.StatusBadge, {
-    status: status,
-    label: statusLabel,
-    hint: statusHint,
+  }, /*#__PURE__*/React.createElement("span", {
     style: {
-      marginBottom: 'var(--space-4)'
+      alignSelf: 'flex-start',
+      display: 'inline-flex',
+      marginBottom: 'var(--space-4)',
+      padding: '6px 12px',
+      borderRadius: 'var(--radius-sm)',
+      background: 'var(--accent)',
+      color: 'var(--text-on-accent)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-extrabold)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-widest)',
+      boxShadow: hover ? 'var(--shadow-lg)' : 'var(--shadow-sm)',
+      transform: hover ? 'translateY(var(--lift-sm))' : 'none',
+      transition: 'box-shadow var(--duration-fast), transform var(--duration-fast)'
     }
-  }), /*#__PURE__*/React.createElement("h3", {
+  }, addressee), clients.length > 0 ? /*#__PURE__*/React.createElement("span", {
     style: {
-      margin: '0 0 var(--space-3)',
+      alignSelf: 'flex-start',
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: '6px',
+      marginBottom: 'var(--space-3)',
+      padding: '4px 12px',
+      borderRadius: 'var(--radius-pill)',
+      border: '1px solid var(--status-delivered-border)',
+      background: 'var(--status-delivered-bg)',
+      color: 'var(--status-delivered-text)',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-bold)'
+    }
+  }, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "check-circle",
+    size: 13
+  }), runningAtLabel, " ", clients.join(' · ')) : null, /*#__PURE__*/React.createElement("h3", {
+    style: {
+      margin: '0 0 10px',
       fontSize: 'var(--text-lg)',
       fontWeight: 'var(--weight-bold)',
       color: 'var(--text-primary)',
@@ -2215,32 +2285,57 @@ function SolutionCard({
   }, title), /*#__PURE__*/React.createElement("p", {
     style: {
       margin: '0 0 var(--space-5)',
-      color: 'var(--text-secondary)',
-      lineHeight: 'var(--leading-relaxed)',
-      flexGrow: 1
-    }
-  }, short), /*#__PURE__*/React.createElement("div", {
-    style: {
-      paddingTop: 'var(--space-4)',
-      borderTop: '1px solid var(--border-subtle)'
-    }
-  }, /*#__PURE__*/React.createElement("p", {
-    style: {
-      margin: '0 0 6px',
-      fontSize: 'var(--text-xs)',
-      fontWeight: 'var(--weight-bold)',
-      color: 'var(--text-accent)',
-      textTransform: 'uppercase',
-      letterSpacing: 'var(--tracking-label)'
-    }
-  }, audienceLabel), /*#__PURE__*/React.createElement("p", {
-    style: {
-      margin: 0,
+      flexGrow: 1,
       fontSize: 'var(--text-sm)',
       color: 'var(--text-secondary)',
       lineHeight: 'var(--leading-relaxed)'
     }
-  }, audience)));
+  }, highlight(short, accent)), /*#__PURE__*/React.createElement("div", {
+    style: {
+      marginTop: 'auto',
+      paddingTop: 'var(--space-4)',
+      borderTop: '1px solid var(--border-subtle)'
+    }
+  }, metric ? /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-xs)',
+      color: 'var(--text-secondary)',
+      lineHeight: 'var(--leading-relaxed)'
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: 'var(--font-numeric)',
+      fontSize: 'var(--text-sm)',
+      fontWeight: 'var(--weight-bold)',
+      color: 'var(--text-primary)'
+    }
+  }, metric.before ? metric.before + ' → ' : '', metric.after), ' ', metric.label) : /*#__PURE__*/React.createElement("p", {
+    style: {
+      margin: 0,
+      fontSize: 'var(--text-xs)',
+      color: 'var(--text-muted)'
+    }
+  }, metricNote), href ? /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 'var(--space-2)',
+      marginTop: '14px',
+      fontSize: 'var(--text-xs)',
+      fontWeight: 'var(--weight-bold)',
+      color: 'var(--text-accent)',
+      textTransform: 'uppercase',
+      letterSpacing: 'var(--tracking-wide)'
+    }
+  }, moreLabel, /*#__PURE__*/React.createElement(__ds_scope.Icon, {
+    name: "arrow-right",
+    size: 14,
+    style: {
+      transform: hover ? 'translateX(4px)' : 'none',
+      transition: 'transform var(--duration-base)'
+    }
+  })) : null));
 }
 Object.assign(__ds_scope, { SolutionCard });
 })(); } catch (e) { __ds_ns.__errors.push({ path: "components/cards/SolutionCard.jsx", error: String((e && e.message) || e) }); }
@@ -4046,26 +4141,34 @@ const TIMELINE = [{
 }];
 const DIRECTIONS = ['Обработка и маршрутизация заявок', 'Аналитика и дашборды', 'Интеграции между системами и CRM', 'Автоматизация отчётности', 'Внутренние сервисы и порталы', 'ИИ-агенты для рутинных задач'];
 const SOLUTIONS_SHOWN = [{
+  addressee: 'Отдел продаж',
+  runningAt: ['Верба', 'More House'],
   title: 'Маршрутизация входящих заявок',
   short: 'Заявки с сайта, Авито и мессенджеров попадают в один поток. Система определяет продукт, регион и срочность, отсеивает спам и отдаёт заявку нужному менеджеру',
-  audience: 'Тем, у кого заявки идут из нескольких каналов и теряются в общей куче',
-  status: 'delivered',
-  statusLabel: 'Внедрено у клиента',
-  statusHint: 'Работает в проде, есть кейс'
+  accent: ['Авито'],
+  metric: {
+    before: '40 мин',
+    after: '2–3 мин',
+    label: 'время первого ответа'
+  },
+  href: '#'
 }, {
-  title: 'Автоматический монтаж коротких видео',
-  short: 'Система находит в длинной записи законченные фрагменты, режет паузы, переводит в вертикальный формат, держит спикера в кадре и добавляет субтитры',
-  audience: 'Тем, у кого копятся вебинары, подкасты и выступления без нарезки',
-  status: 'prototype',
-  statusLabel: 'Рабочий прототип',
-  statusHint: 'Собрано и проверено, но не у клиента'
-}, {
+  addressee: 'Отдел продаж',
   title: 'Автозаполнение CRM по звонкам',
   short: 'После разговора система расшифровывает запись, достаёт договорённости, суммы и сроки, заполняет карточку сделки и ставит следующую задачу',
-  audience: 'Отделам продаж, где карточки заполняются по памяти и с опозданием',
-  status: 'concept',
-  statusLabel: 'Можем собрать',
-  statusHint: 'Компетенции есть, готового решения нет'
+  accent: ['договорённости, суммы и сроки'],
+  metric: {
+    before: '40%',
+    after: '95%',
+    label: 'заполняемость карточек CRM'
+  },
+  href: '#'
+}, {
+  addressee: 'Маркетинг',
+  title: 'Автоматический монтаж коротких видео',
+  short: 'Система находит в длинной записи законченные фрагменты, режет паузы, переводит в вертикальный формат, держит спикера в кадре и добавляет субтитры',
+  accent: ['вертикальный формат'],
+  href: '#'
 }];
 const FAQ_AUTOMATION = [{
   q: 'Сколько времени занимает внедрение?',
@@ -4351,12 +4454,20 @@ function AutomationScreen() {
   }, "\u0427\u0442\u043E \u043C\u044B \u043C\u043E\u0436\u0435\u043C \u043F\u043E\u0441\u0442\u0440\u043E\u0438\u0442\u044C"), /*#__PURE__*/React.createElement("p", {
     style: {
       maxWidth: 'var(--container-prose)',
-      margin: '0 0 var(--space-10)',
+      margin: '0 0 var(--space-3)',
       fontSize: 'var(--text-lg)',
       color: 'var(--text-secondary)',
       lineHeight: 'var(--leading-relaxed)'
     }
-  }, "\u0413\u043E\u0442\u043E\u0432\u044B\u0435 \u0441\u0446\u0435\u043D\u0430\u0440\u0438\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0441\u043E\u0431\u0438\u0440\u0430\u044E\u0442\u0441\u044F \u043F\u043E\u0434 \u0432\u0430\u0448 \u043F\u0440\u043E\u0446\u0435\u0441\u0441. \u0423 \u043A\u0430\u0436\u0434\u043E\u0433\u043E \u0447\u0435\u0441\u0442\u043D\u043E \u0443\u043A\u0430\u0437\u0430\u043D\u043E, \u0432\u043D\u0435\u0434\u0440\u044F\u043B\u0438 \u043B\u0438 \u043C\u044B \u0435\u0433\u043E \u0443 \u043A\u043B\u0438\u0435\u043D\u0442\u0430 \u0438\u043B\u0438 \u043F\u043E\u043A\u0430 \u0442\u043E\u043B\u044C\u043A\u043E \u043C\u043E\u0436\u0435\u043C \u0441\u043E\u0431\u0440\u0430\u0442\u044C."), /*#__PURE__*/React.createElement("div", {
+  }, "\u0417\u0430\u0434\u0430\u0447\u0438, \u0441 \u043A\u043E\u0442\u043E\u0440\u044B\u043C\u0438 \u043A \u043D\u0430\u043C \u043F\u0440\u0438\u0445\u043E\u0434\u044F\u0442 \u0447\u0430\u0449\u0435 \u0432\u0441\u0435\u0433\u043E \u2014 \u043F\u043E\u0434 \u043A\u0430\u0436\u0434\u0443\u044E \u0441\u043E\u0431\u0438\u0440\u0430\u0435\u043C \u0440\u0435\u0448\u0435\u043D\u0438\u0435 \u043F\u043E \u0432\u0430\u0448\u0435\u043C\u0443 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0443"), /*#__PURE__*/React.createElement("p", {
+    style: {
+      maxWidth: 'var(--container-prose)',
+      margin: '0 0 var(--space-10)',
+      fontSize: 'var(--text-sm)',
+      color: 'var(--text-muted)',
+      lineHeight: 'var(--leading-relaxed)'
+    }
+  }, "\u041E\u0442\u043A\u0440\u043E\u0439\u0442\u0435 \u043B\u044E\u0431\u043E\u0435: \u0447\u0442\u043E \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0434\u0438\u0442 \u0441\u0435\u0439\u0447\u0430\u0441, \u0447\u0442\u043E \u0434\u0435\u043B\u0430\u0435\u0442 \u0441\u0438\u0441\u0442\u0435\u043C\u0430 \u0438 \u0447\u0442\u043E \u043C\u0435\u043D\u044F\u0435\u0442\u0441\u044F \u0432 \u0440\u0430\u0431\u043E\u0442\u0435"), /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
@@ -4365,9 +4476,7 @@ function AutomationScreen() {
   }, SOLUTIONS_SHOWN.map((s, i) => /*#__PURE__*/React.createElement(Reveal, {
     key: s.title,
     delay: i * 60
-  }, /*#__PURE__*/React.createElement(SolutionCard, _extends({}, s, {
-    audienceLabel: "\u041A\u043E\u043C\u0443"
-  }))))), /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React.createElement(SolutionCard, s)))), /*#__PURE__*/React.createElement("p", {
     style: {
       marginTop: 'var(--space-6)',
       fontSize: 'var(--text-sm)',
@@ -4379,7 +4488,7 @@ function AutomationScreen() {
   }, /*#__PURE__*/React.createElement(Icon, {
     name: "lightbulb",
     size: 16
-  }), "\u0412 \u043F\u0440\u043E\u0434\u0435 \u043A\u0430\u0440\u0442\u043E\u0447\u0435\u043A \u0442\u0440\u0438\u043D\u0430\u0434\u0446\u0430\u0442\u044C \u2014 \u0437\u0434\u0435\u0441\u044C \u043F\u043E\u043A\u0430\u0437\u0430\u043D\u044B \u0442\u0440\u0438 \u0441\u0442\u0430\u0442\u0443\u0441\u0430 \u043F\u043E\u0434\u0440\u044F\u0434.")), /*#__PURE__*/React.createElement(Faq, {
+  }), "\u0412 \u043F\u0440\u043E\u0434\u0435 \u043A\u0430\u0440\u0442\u043E\u0447\u0435\u043A \u0442\u0440\u0438\u043D\u0430\u0434\u0446\u0430\u0442\u044C, \u0437\u0434\u0435\u0441\u044C \u0442\u0440\u0438: \u0441 \u043A\u043B\u0438\u0435\u043D\u0442\u0430\u043C\u0438, \u0441 \u043C\u0435\u0442\u0440\u0438\u043A\u043E\u0439 \u0438 \u0431\u0435\u0437 \u0446\u0438\u0444\u0440\u044B.")), /*#__PURE__*/React.createElement(Faq, {
     heading: "\u0427\u0430\u0441\u0442\u044B\u0435 \u0432\u043E\u043F\u0440\u043E\u0441\u044B",
     items: FAQ_AUTOMATION,
     idPrefix: "automation",

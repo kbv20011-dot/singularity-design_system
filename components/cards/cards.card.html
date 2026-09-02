@@ -1,4 +1,4 @@
-<!-- @dsCard group="Components" viewport="700x460" name="Карточки" subtitle="Кейс (full и compact) и решение с обязательным статусом" -->
+<!-- @dsCard group="Components" viewport="700x460" name="Карточки" subtitle="Кейс (full и compact) и решение с плашкой адресата" -->
 <!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><title>Карточки</title><link rel="stylesheet" href="../../styles.css"><script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
@@ -16,10 +16,12 @@ function Card() {
         <CaseCard variant="full" name="Верба — чат-боты" subtitle="Внутренняя автоматизация"
           description="Чат-бот маршрутизирует заявки на нужного менеджера, отправляет уведомления и собирает аналитику в дашборд."
           result="сделан, запущен, работает" />
-        <SolutionCard status="delivered" statusHint="Работает в проде, есть кейс"
+        <SolutionCard addressee="Отдел продаж" runningAt={['Верба']}
           title="Маршрутизация входящих заявок"
           short="Заявки с сайта, Авито и мессенджеров попадают в один поток. Система определяет продукт, регион и срочность, отсеивает спам и отдаёт заявку нужному менеджеру"
-          audience="Тем, у кого заявки идут из нескольких каналов и теряются в общей куче" />
+          accent={['Авито']}
+          metric={{ before: '40 мин', after: '2–3 мин', label: 'время первого ответа' }}
+          href="#" />
       </div>
     </div>
   );

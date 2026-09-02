@@ -222,12 +222,8 @@
         "message": "<SiteNavItem> doesn't accept that prop. Declared props: label, href."
       },
       {
-        "selector": "JSXOpeningElement[name.name='SolutionCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:title|short|audience|audienceLabel|status|statusLabel|statusHint|style|key|ref|className|style|children)$/]",
-        "message": "<SolutionCard> doesn't accept that prop. Declared props: title, short, audience, audienceLabel, status, statusLabel, statusHint, style."
-      },
-      {
-        "selector": "JSXOpeningElement[name.name='SolutionCard'] > JSXAttribute[name.name='status'] > Literal[value!=/^(?:delivered|prototype|concept)$/]",
-        "message": "<SolutionCard> status must be one of 'delivered' | 'prototype' | 'concept'."
+        "selector": "JSXOpeningElement[name.name='SolutionCard'] > JSXAttribute > JSXIdentifier[name!=/^(?:addressee|title|short|accent|metric|metricNote|runningAt|runningAtLabel|moreLabel|href|style|key|ref|className|style|children)$/]",
+        "message": "<SolutionCard> doesn't accept that prop. Declared props: addressee, title, short, accent, metric, metricNote, runningAt, runningAtLabel, moreLabel, href, style."
       },
       {
         "selector": "JSXOpeningElement[name.name='StatusBadge'] > JSXAttribute > JSXIdentifier[name!=/^(?:status|label|hint|style|key|ref|className|style|children)$/]",
